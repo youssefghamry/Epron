@@ -1,0 +1,35 @@
+<!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+    <g transform="matrix(1 0 0 -1 0 60)">
+        <rect width="2" height="14" rx="3">
+            <animate attributeName="height"
+                 begin="0s" dur="4.3s"
+                 values="30;45;13;80;56;72;45;76;34;23;67;30" calcMode="linear"
+                 repeatCount="indefinite" />
+        </rect>
+        <rect x="4" width="2" height="20" rx="3">
+            <animate attributeName="height"
+                 begin="0s" dur="2s"
+                 values="30;45;13;20;56;20;45;76;34;23;67;30" calcMode="linear"
+                 repeatCount="indefinite" />
+        </rect>
+        <rect x="8" width="2" height="10" rx="3">
+            <animate attributeName="height"
+                 begin="0s" dur="1.4s"
+                 values="50;34;78;23;56;23;34;76;80;54;21;50" calcMode="linear"
+                 repeatCount="indefinite" />
+        </rect>
+        <rect x="12" width="2" height="5" rx="3">
+            <animate attributeName="height"
+                 begin="0s" dur="2s"
+                 values="30;45;13;80;56;72;45;76;34;23;67;30" calcMode="linear"
+                 repeatCount="indefinite" />
+        </rect>
+        <rect x="16" width="2" height="8" rx="3">
+            <animate attributeName="height"
+                 begin="0s" dur="2s"
+                 values="30;45;56;72;45;76;34;23;67;30;13;80" calcMode="linear"
+                 repeatCount="indefinite" />
+        </rect>
+    </g>
+</svg>

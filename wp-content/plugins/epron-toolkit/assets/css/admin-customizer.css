@@ -1,0 +1,284 @@
+/**
+ * Extra styles for Kirki customizer
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+.kirki-customizer-loading-wrapper {
+    display: block;
+    opacity: 1;
+    background:transparent !important;
+}
+
+#customize-info {
+    display: none;
+}
+body .customize-panel-back:focus, 
+body .customize-panel-back:hover, 
+body .customize-section-back:focus, 
+body .customize-section-back:hover, 
+body .customize-panel-back, 
+body .customize-section-back, 
+body .customize-controls-close, 
+body .customize-overlay-close {
+    background: #eee;
+    border-left: 0;
+    color:#222
+}
+body .customize-panel-back:hover {
+    background: #f86239;
+    color: #fff;
+}
+body .customize-controls-close:focus,
+body .customize-controls-close:active {
+    background: #f86239;
+    color: #fff;
+    border-top-color:transparent;
+}
+body .customize-panel-back:hover, 
+body .customize-section-back:hover {
+    background: #f86239;
+    color: #fff;
+}
+body #customize-controls .control-section .accordion-section-title:focus, 
+body #customize-controls .control-section .accordion-section-title:hover, 
+body #customize-controls .control-section.open .accordion-section-title, 
+body #customize-controls .control-section:hover >.accordion-section-title {
+    border-left-color: #f86239;
+}
+
+body #customize-controls #customize-theme-controls .accordion-section > .accordion-section-title {
+    border-bottom: 0;
+}
+#customize-theme-controls ul:first-child li.control-section:nth-child(3) {
+   border-top:1px solid #eee;
+}
+#customize-theme-controls > ul > li.control-section:nth-child(3) {
+    border-top:none
+}
+
+#customize-theme-controls li.control-section {
+    border-bottom:1px solid #eee;
+}
+body #customize-theme-controls .accordion-section-title {
+    transition:none
+}
+
+body #customize-controls .control-section .accordion-section-title:hover .menu-in-location {
+    color: #f86239;
+}
+
+body .customize-controls-close,
+body .customize-controls-close:hover {
+    border-top-color:transparent;
+}
+body .customize-controls-close:hover {
+    background: #f86239;
+    color:#fff;
+}
+body #customize-controls .customize-info.section-meta  {
+    margin-bottom:0;
+}
+body #customize-header-actions .button-primary,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-primary:hover,
+body #customize-header-actions .button-primary:hover,
+body #customize-header-actions .button-primary:focus {
+    background: #f86239;
+    border: none;
+    color: #fff;
+    text-shadow:none;
+    box-shadow:none;
+}
+body .kirki-reset-section {
+    background: #BDBDBD;
+    text-decoration:none;
+    opacity: 1;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding:1px 8px;
+}
+body .kirki-reset-section:active,
+body .kirki-reset-section:focus,
+body .kirki-reset-section:hover {
+    background: #f86239;
+    text-decoration:none;
+    opacity: 1;
+    color: #fff;
+    font-weight: 400;
+    box-shadow:none;
+}
+body #customize-theme-controls .control-panel-content .control-section:nth-child(2),
+body #customize-theme-controls .control-panel-nav_menus .control-section:nth-child(3) {
+    border-top:0
+}
+body #customize-theme-controls #accordion-section-menu_locations,
+body #customize-controls .customize-info { 
+    margin-bottom:0
+}
+
+
+body #customize-controls .customize-info .customize-help-toggle,
+body #customize-controls .customize-info .customize-help-toggle:focus,
+body #customize-controls .customize-info .customize-screen-options-toggle,
+body #customize-controls .customize-info .customize-screen-options-toggle:focus {
+    color:#333;
+}
+body #customize-controls .customize-info.open .customize-help-toggle,
+body #customize-controls .customize-info.open .customize-screen-options-toggle{
+    color: #f86239;
+}
+body #customize-controls .customize-info .customize-help-toggle:hover,
+body #customize-controls .customize-info .customize-screen-options-toggle:hover{
+    color: #f86239;
+}
+body .customize-control {
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom:1px dashed #ddd
+}
+
+body #available-menu-items .item-add:focus:before, 
+body #customize-controls .customize-info .customize-help-toggle:focus:before, 
+body .customize-screen-options-toggle:focus:before, 
+body .menu-delete:focus, 
+body .menu-item-bar .item-delete:focus:before, 
+body .wp-customizer .menu-item .submitbox .submitdelete:focus, 
+body .wp-customizer button:focus .toggle-indicator:after {
+    box-shadow:none;
+}
+body .customize-control-dropdown-pages .add-new-toggle,
+body .customize-control-dropdown-pages .add-new-toggle:active, 
+body .customize-control-dropdown-pages .add-new-toggle:hover {
+   color: #f86239;
+}
+body .customize-control-dropdown-pages .add-new-toggle:hover {
+    text-decoration:none
+}
+
+/* Toggle */
+body .customize-control-kirki-toggle .switch {
+    border: none;
+    width: 38px;
+    height: 20px;
+    border-radius:0em;
+    background: #ddd;
+}
+body .customize-control-kirki-toggle .switch:after, .customize-control-kirki-toggle .switch:before {
+    border-radius: 0;
+}
+body .customize-control-kirki-toggle input:checked + .switch {
+    background: #f86239;
+}
+body .customize-control-kirki-toggle input:checked + .switch:after {
+    background: #fff;
+}
+body .customize-control-kirki-toggle .switch:after {
+    background: #999;
+    border: none;
+}
+body .customize-control-kirki-toggle .switch:after, 
+body .customize-control-kirki-toggle .switch:before {
+    width: 16px;
+    height: 16px;
+    left: 2px;
+}
+body .customize-control-kirki-toggle .switch:after {
+    left: 4px;
+}
+/* Descriptions */
+body .customize-control-kirki .description {
+    font-size: 11px;
+    line-height: 14px;
+    color: #aaa;
+    font-style: italic;
+}
+body #customize-controls .description {
+    color: #aaa;
+}
+.customize-control-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+}
+
+body .customize-control-kirki {
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom: 1px dashed #ddd;
+}
+body ul .customize-control-kirki:last-child {
+    margin-bottom:10px;
+    padding-bottom:0px;
+    border-bottom: 0;
+}
+body .wp-core-ui .button-primary,
+body .wp-core-ui .button-primary:focus,
+body .wp-core-ui .button-primary:hover,
+body .wp-core-ui .button-primary:active {
+    text-shadow:none;
+    box-shadow:none;
+    border:0;
+    color:#fff;
+    background: #f86239;
+}
+
+body #customize-controls .control-section-themes .accordion-section-title .change-theme, 
+body #customize-controls .customize-themes-panel .accordion-section-title .customize-theme {
+    text-shadow: none;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none !important;
+}
+body #customize-controls .wp-picker-container .wp-color-result.button {
+    height: 24px !important;
+}
+body #customize-controls .wp-picker-container .wp-color-result.button span {
+    line-height:24px !important;
+    top:-1px;
+    position:relative;
+}
+
+body .customize-control-kirki-radio-buttonset .buttonset .switch-input:checked + .switch-label,
+body .customize-control-kirki-background .background-attachment .buttonset .switch-input:checked + .switch-label, 
+body .customize-control-kirki-background .background-size .buttonset .switch-input:checked + .switch-label {
+    color: #fff
+}
+
+/**
+ * Extra Styles for customizer admin page
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+@media screen and (max-width: 640px) {
+    .wp-core-ui .button,
+    .wp-core-ui .button-secondary,
+    .customize-controls-preview-toggle,
+    .customize-controls-preview-toggle.focus, .customize-controls-preview-toggle.hover, .customize-controls-preview-toggle:focus, .customize-controls-preview-toggle:hover {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+body .select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-results__option  {
+    margin-bottom:0;
+}
+body .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #eee;
+    color: #050100;
+
+}

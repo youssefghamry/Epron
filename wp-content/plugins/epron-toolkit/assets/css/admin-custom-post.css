@@ -1,0 +1,148 @@
+/**
+ * Styles for custom post types
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+/* Sortable Posts */ 
+#sortable-posts .clear {
+    clear: both;
+    display: block;
+    height: 1px;
+    margin-top: -1px;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0
+}
+
+#sortable-posts .clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0
+}
+
+* html #sortable-posts .clearfix, :first-child+html #sortable-posts .clearfix {
+    zoom:1}
+
+.wrap-sortable-post #loading-animation {
+    display: none
+}
+
+#sortable-posts li {
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    position: relative;
+    max-width: 600px
+}
+
+#sortable-posts .sortable-content {
+    display: inline-block;
+    clear: both;
+    padding: 0 10px 0 20px;
+}
+
+#sortable-posts .sortable-content p {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0;
+    color: #666
+}
+
+#sortable-posts .drag-item,#sortable-posts .edit-item {
+    width: 16px;
+    height: 16px;
+    font: 400 20px/1 dashicons!important;
+    color: #999;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+#sortable-posts .drag-item:hover,#sortable-posts .edit-item:hover {
+    color: #333
+}
+
+#sortable-posts .drag-item {
+    cursor: move;
+    margin-right: 15px;
+}
+
+#sortable-posts .drag-item:before {
+    content: "\f168";
+    display: inline-block
+}
+
+#sortable-posts .edit-item {
+}
+
+#sortable-posts .edit-item:before {
+    content: "\f327";
+    display: inline-block
+}
+
+#sortable-posts h6 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sortable-posts h6 span {
+    color: #bbb
+}
+
+#sortable-posts .preview-thumb {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sortable-posts .preview-thumb img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+/* Events */
+.widefat p.mb-event-date {
+	font-size:12px;
+}
+.widefat p.mb-event-type-future,
+.widefat p.mb-event-type-past,
+.widefat p.mb-event-repeat,
+.widefat p.mb-event-days-left {
+    font-size:11px;
+	display:inline-block;
+	color:#fff;
+	padding:2px 10px;
+	border-radius: 5px;
+	margin-bottom:2px;
+	margin-right:4px;
+	text-transform:uppercase;
+}
+p.mb-event-repeat {
+    background-color: #6db6d6;
+}
+p.mb-event-days-left {
+    background-color: #6dd6a7;
+}
+.mb-event-type-future {
+	 background-color: #d66dd4;
+}
+.mb-event-type-past {
+	 background-color: #afafaf;
+}

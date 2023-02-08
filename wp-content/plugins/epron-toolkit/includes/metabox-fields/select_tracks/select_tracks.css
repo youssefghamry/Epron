@@ -1,0 +1,126 @@
+/**
+ * Select Tracks
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+.tracks-select-block {
+
+}
+
+	.tracks-select-block .track-id {}
+	
+	.box-tp-block {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.box-tp-block .track-item {
+		position: relative;
+		padding: 5px;
+		border: 1px solid #f6f6f6;
+		border-top-color: transparent;
+		min-height: 40px;
+		background-color: #fff;
+	}
+	.box-tp-block .track-item:first-child {
+		border-top-color: #f6f6f6;
+	}
+	.box-tp-block .track-item.ui-sortable-helper {
+		border-top-color: #f6f6f6;
+		moz-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+	}
+
+		.box-tp-block .track-details {
+			padding-left: 50px;
+			position: relative;
+			font-size: 12px;
+			padding-right: 40px;
+		}
+			.box-tp-block .track-details .artists,
+			.box-tp-block .track-details .track-title {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.box-tp-block .artists {
+				display: block;
+				opacity:0.7;
+
+			}
+			.box-tp-block .track-title {
+				display: block;
+				font-weight:500;
+			}
+
+		.box-tp-block .cover-img {
+			position: absolute;
+			left:5px;
+			top:5px;
+			width: 40px;
+			height: 40px;
+			overflow: hidden;
+		}
+			.box-tp-block .cover-img img {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				height: 100%;
+				width: auto;
+				cursor: move;
+				z-index: 3;
+				-webkit-transform: translate(-50%,-50%);
+				-ms-transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);
+			}
+			.box-tp-block .cover-img img.portrait {
+				width: 100%;
+				height: auto;
+			}
+
+			.box-tp-block .remove-track {
+				position:absolute;
+				right:10px;
+				top:10px;
+				z-index:1;
+				width:20px;
+				height:20px;
+			}
+			.box-tp-block .remove-track:before,
+			.box-tp-block .remove-track:after {
+				content:"";
+				position:absolute;
+				left:10px;
+				top:0;
+				height:20px;
+				width:1px;
+				background-color:#ccc;
+			}
+			.box-tp-block .remove-track:before {
+				transform:rotate(45deg)
+			}
+			.box-tp-block .remove-track:after {
+				transform:rotate(-45deg)
+			}
+
+.track-id-block {
+	position: relative;
+}
+.ajax-loader {
+	position: absolute;
+	left: 230px;
+	top: 7px;
+	display: none;
+}
+
+.edit-track-post {
+	margin-top: 5px;
+	display: inline-block;
+}

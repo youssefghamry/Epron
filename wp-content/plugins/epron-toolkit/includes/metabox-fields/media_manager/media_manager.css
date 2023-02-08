@@ -1,0 +1,678 @@
+/**
+ * Media Manager
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+
+/* ---- Preview ---- */
+.mm-ajax {
+    padding: 0px 0 0 10px;
+    display: none;
+    position: relative;
+    top: 5px;
+}
+
+
+/* ==================================================
+  COMMON ELEMENTS 
+================================================== */
+
+/* Select ALL
+ -------------------------------- */
+.mm-select-all {
+    color: #eee;
+    margin-bottom: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right:6px;
+    clear: both;
+    font-size:18px;
+}
+.mm-select-all:hover,
+.mm-select-all.selected {}
+
+/* ---- Preview ---- */
+.mm-ajax {
+    padding: 0px 0 0 10px;
+    display: none;
+    position: relative;
+    top: 5px;
+}
+
+
+/* ==================================================
+  COMMON ELEMENTS 
+================================================== */
+
+/* Select ALL
+ -------------------------------- */
+.mm-select-all {
+    color: #bbb;
+    margin-bottom: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right:6px;
+    clear: both;
+    font-size:18px;
+}
+.mm-select-all:hover,
+.mm-select-all.selected {
+   color: #e65345;
+}
+
+
+/* Small Helpers
+ -------------------------------- */
+.mm-hidden {
+    display: none;
+}
+#mm-audio-id {
+    background:#eee;
+    opacity:1;
+    cursor:default
+}
+
+
+/* ==================================================
+  COMMON CONTAINERS 
+================================================== */
+
+/* Block
+ -------------------------------- */
+.mm-block {
+    clear: both;
+}
+
+/* Container
+ -------------------------------- */
+.mm-container {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/* ==================================================
+  GRID LAYOUT 
+================================================== */
+
+.mm-block.mm-grid .mm-container {
+     padding-top:10px;
+}
+
+/* Buttons */
+.mm-block.mm-grid  .mm-edit-button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 2;
+    background: #fff;
+    -moz-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    -o-transtion: opacity 0.2s ease;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    font-weight: 300;
+}
+.mm-block.mm-grid .mm-edit-button:hover { background: #fff }
+.mm-block.mm-grid .mm-edit-button i {
+    color: #1e1e1e;
+    font-size: 14px;
+    left: 0px;
+    position: relative;
+    top: 3px;
+}
+.mm-block.mm-grid  .mm-item:hover .mm-edit-button { opacity: 1 }
+
+/* Image thumb */
+.mm-block.mm-grid .mm-item,
+#mm-editor-content .mm-item {
+    position: relative;
+    float: left;
+    margin: 0px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid transparent;
+    width:80px;
+    height:80px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+.mm-block.mm-grid .mm-item .mm-item-preview,
+#mm-editor-content .mm-item .mm-item-preview {
+    position: relative;
+    cursor: move;
+    width: 80px;
+    height: 80px;
+}
+
+.mm-block.mm-grid .mm-item-image,
+#mm-editor-content .mm-item-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+#mm-editor-content .mm-centered,
+.mm-block.mm-grid .mm-centered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(50%,50%);
+    -moz-transform: translate(50%,50%);
+    -ms-transform: translate(50%,50%);
+    -o-transform: translate(50%,50%);
+    transform: translate(50%,50%);
+}
+#mm-editor-content .mm-centered img,
+.mm-block.mm-grid .mm-centered img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-height: 120px;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.mm-block.mm-grid .mm-filename {
+    position: absolute;
+    font-size: 11px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    max-height: 100%;
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 700;
+    background: rgba(000,000,000,.4);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+}
+.mm-block.mm-grid .mm-filename div {
+    padding: 5px 10px;
+    color:#fff;
+    line-height:120%;
+}
+
+
+.mm-block.mm-grid .mm-item {
+    margin-bottom:5px;
+    margin-right:5px
+}
+.mm-block.mm-grid .mm-item-image {
+    width:75px;
+    height:75px;
+}
+.mm-block.mm-grid .mm-item img {
+    padding:5px;
+}
+.mm-block.mm-grid .mm-item.mm-selected {
+    border-color: #333;
+    border-width:1px;
+}
+
+
+/* ==================================================
+  LIST LAYOUT 
+================================================== */
+
+.mm-block.mm-list {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.mm-list-tpl {
+    display: none;
+}
+.mm-block.mm-list .mm-container * {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+    .mm-block.mm-list .mm-item {
+        width:100%;
+        float:none;
+        display:block;
+        position: relative;
+        padding: 5px;
+        border-bottom: 1px solid #f6f6f6;
+        border-top-color: transparent;
+        min-height: 54px;
+        background-color: #fff;
+        margin: 0;
+        text-align:left;
+        transition: color 0.3s ease;
+    }
+    .mm-block.mm-list .mm-item:first-child {
+        border-top-color: #f6f6f6;
+    }
+    .mm-block.mm-list .mm-item.mm-open-editor {
+        background-color:#f9f9f9
+    }
+    .mm-block.mm-list .mm-item.ui-sortable-helper {
+        border-top-color: #f6f6f6;
+        moz-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    }
+    .mm-block.mm-list .mm-item-container {
+        display:table;
+        width: 100%;
+        min-height: 43px;
+        overflow:hidden;
+        min-width: 100%;
+    }
+        .mm-block.mm-list .mm-field {
+            display:table-cell;
+            vertical-align:top;
+            text-align:left;
+        }
+        .mm-block.mm-list .mm-field-image {
+            width:40px;
+            min-width: 10%;
+        }
+            .mm-block.mm-list .mm-field-image img {
+                width:40px;
+                cursor:move;
+                max-width:40px;
+            }
+        .mm-block.mm-list .mm-field-text,
+        .mm-block.mm-list .mm-field-post_name {
+            width: 400px;
+            min-width: 10%;
+            padding:2px 20px 0px;
+            font-size:12px;
+        }
+        .mm-block.mm-list .mm-field-title {
+            font-size:12px;
+            font-weight:600;
+            width:300px;
+            min-width:100px;
+        }
+        .mm-block.mm-list .mm-field-buttons {
+            width: 150px;
+        }
+       
+            /* Save */
+            .mm-block.mm-list .mm-save-button {
+                position:absolute;
+                top:13px;
+                right: 65px;
+                width:20px;
+                height:20px;
+                cursor:pointer;
+                background-color:transparent;
+                display: none;
+            }
+            .mm-block.mm-list .mm-save-button i {
+                font-size:18px;
+                color: #6dd6a7;
+            }
+            .mm-block.mm-list .mm-item.mm-loading .mm-save-button,
+            .mm-block.mm-list .mm-item.mm-open-editor .mm-save-button {
+                display: block;
+            }
+            .mm-block.mm-list .mm-item.mm-loading .mm-save-button i:before {
+                content: "";
+            }
+            .mm-block.mm-list .mm-item.mm-loading .mm-save-button {
+              
+            }
+            .mm-block.mm-list .mm-item.mm-loading .mm-save-button i {
+                position:relative;
+                border:1px solid #6dd6a7;
+                width:15px;
+                height:15px;
+                cursor:pointer;
+                border-radius: 50%;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                -webkit-animation: spin 1s linear infinite;
+                -moz-animation: spin 1s linear infinite; 
+                animation: spin 1s linear infinite; 
+            }
+
+            .mm-block.mm-list .mm-item.mm-error .mm-save-button i:before {
+                content: '\f06a';
+                color: red;
+            }
+
+            /* Edit */
+            .mm-block.mm-list .mm-edit-button {
+                position:absolute;
+                top:13px;
+                right: 33px;
+                width:20px;
+                height:20px;
+                cursor:pointer;
+                background-color:transparent;
+            }
+            .mm-block.mm-list .mm-open-editor .mm-edit-button i,
+            .mm-block.mm-list .mm-edit-button:hover i {
+                color:#f86239;
+            }
+            .mm-block.mm-list .mm-edit-button i {
+                color:#999;
+                font-size:18px;
+            }
+            .mm-block.mm-list .mm-edit-button i:before {
+                content:"\f044";
+            }
+            .mm-block.mm-list .mm-open-editor .mm-edit-button i:before {
+                content: '\f00d';
+            }
+            .mm-block.mm-list .mm-select-button {
+                position:absolute;
+                right:5px;
+                top: 13px;
+                cursor:pointer;
+            }
+            .mm-block.mm-list .mm-select-button i {
+                font-size:18px;
+                color: #ddd;
+            }
+            .mm-block.mm-list .mm-select-button:hover i {
+               color: #999
+            }
+            .mm-block.mm-list .mm-item.mm-selected .mm-select-button i {
+                color:#e65345;
+            }
+            
+/* Head */
+.mm-block.mm-list .mm-item.mm-head {
+    min-height:auto;
+    border-bottom:1px solid #eee
+}
+.mm-block.mm-list .mm-item.mm-head .mm-item-container {
+    min-height:20px;
+}
+.mm-block.mm-list .mm-item.mm-head .mm-field.mm-field-image {
+    padding:0;
+    padding-top:2px
+}
+.mm-block.mm-list .mm-item.mm-head .mm-field {
+    font-weight:800;
+    font-size:13px;
+    vertical-align:top;
+    
+}
+
+
+/* ==================================================
+  MEDIA EDITOR INLINE
+================================================== */
+.mm-block.mm-list .mm-inline-editor {
+    padding:0px 20px 20px 20px;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-bottom:-10px;
+    margin-top:0px;
+    border-top:3px solid #f86239;
+    background-color:#f6f6f6;
+}
+
+.mm-block.mm-list .mm-inline-editor fieldset {
+    max-width:600px;
+}
+.mm-block.mm-list .mm-inline-editor .box-row:last-child .box-row-line {
+    display:none
+}
+.mm-block.mm-list .mm-inline-editor .box-row-input .box-tc {
+    display: table-cell;
+    vertical-align: top;
+}
+.mm-block.mm-list .mm-inline-editor .image-holder {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing:content-box;
+    width:60px;
+    height:60px;
+}
+
+@media screen and (max-width: 982px) {
+    .rascalsbox .box-row-input {
+        display: block
+    }
+
+    .mm-block.mm-list .mm-inline-editor .box-row-input .box-tc {
+        width:100%;
+        display: block;
+        margin-bottom:10px;
+    }
+
+    .rascalsbox .box-row-input .box-tc-label {
+        margin-bottom: 10px
+    }
+}
+
+/* ==================================================
+  MEDIA EDITOR WINDOW 
+================================================== */
+#mm-editor-content {
+    display: none;
+}
+#mm-editor-loader {
+    float: right;
+    margin: 16px 18px;
+    display: none;
+}
+#mm-editor-content fieldset {
+    clear: both;
+    position: relative;
+}
+
+
+/* Image Meta descriptions
+ -------------------------------- */
+#mm-editor-content .mm-item-image {
+    width:120px;
+    height:120px;
+}
+#mm-editor-content .mm-item {
+    position: relative;
+    float: left;
+    margin: 0px 15px 0 0;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid transparent;
+    width:120px;
+    height:120px;
+}
+#mm-editor-content .mm-item .mm-item-preview {
+    width: 120px;
+    height: 120px;
+}
+#mm-editor-meta {
+    float: left;
+    display: inline;
+}
+#mm-editor-meta span {
+    display: block;
+    font-size: 12px;
+    margin: 2px 0;
+}
+#mm-editor-meta strong {
+    color: #23282d;
+    font-weight: 800;
+}
+#mm-editor-meta a {
+    color: #27abff;
+}
+
+
+/* Services
+ -------------------------------- */
+.services-label {
+    margin-bottom: 5px;
+}
+.box-row .services-messages p {
+    display: none;
+}
+.box-services-buttons ._button {
+    font-size: 12px;
+    padding:5px 10px;
+}
+
+/* Hearthis */
+.box-services-buttons ._button.add-hearthis {
+    background-color: #6dd6a7;
+}
+/* Hearthis */
+.box-services-buttons ._button.add-googledrive {
+    background-color: #6dd6a7;
+}
+
+
+/* ==================================================
+  MEDIA EXPLORER WINDOW 
+================================================== */
+
+#mm-explorer-box .mm-item .mm-item-preview {
+    cursor:pointer;
+}
+
+/* Load next items */
+.mm-load-next {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+    cursor: pointer;
+    color: #27abff;
+    font-weight: bold;
+     -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transtion: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.mm-load-next:hover {
+    background-color: #ddd;
+}
+
+/* Search */
+#explorer-top {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#explorer-top label {
+    font-size: 12px;
+    float: left;
+    color: #666;
+}
+
+#explorer-top input {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* Select all */
+#explorer-top label.mm-label-select {
+    float: right;
+    padding: 4px;
+}
+
+/* Loader */
+#mm-explorer-loader { 
+    float: right; 
+    margin: 8px 12px 0 0;
+}
+
+@media screen and (max-width: 780px) { 
+    .mm-edit-button {
+        opacity: 1;
+    }
+}
+
+/* Custom audio list style */
+#mm-explorer-box .mm-block.mm-list {
+    margin-bottom:10px;
+}
+#mm-explorer-box .mm-block.mm-list .mm-item {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    min-height:30px;
+    padding: 10px;
+}
+#mm-explorer-box .mm-block.mm-list .mm-item-container {
+    min-height:30px;
+}
+#mm-explorer-box .mm-block.mm-list .cover-img {
+    display:none;
+}
+#mm-explorer-box .mm-block.mm-list .track-details {
+    padding-left:0
+}
+#mm-explorer-box .mm-block.mm-list .mm-edit-button {
+    display:none
+}
+#mm-explorer-box .mm-block.mm-list .track-details {
+    position: relative;
+    font-size: 12px;
+}
+#mm-explorer-box .mm-block.mm-list .track-details .track-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#444;
+    font-size:14px;
+    margin-top:5px
+}
+#mm-explorer-box .mm-block.mm-list .track-title {
+    display: block;
+    font-weight:500;
+}
+
+
+/* ==================================================
+  ANIMATIONS 
+================================================== */
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin {
+    100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
+}
+  
+
+/* Small Helpers
+ -------------------------------- */
+.mm-hidden {
+    display: none;
+}
+#mm-audio-id {
+    background:#eee;
+    opacity:1;
+    cursor:default
+}

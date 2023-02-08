@@ -1,0 +1,230 @@
+/**
+ * Styles for admin pages
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Rascals Panel
+ * @version 1.0.1
+ */
+
+/* Menu
+ -------------------------------- */
+.rascals-admin-header {
+	max-width: none;
+	margin: -50px -48px 0 0;
+	padding-left: 28px;
+	padding-top: 60px;
+	position: relative;
+	left: -48px;
+	background:#cdcdcd;
+	position:relative;
+}
+
+.rascals-admin-header .nav-tab-wrapper {
+  padding-left: 30px !important;
+}
+.rascals-settings-link {
+	font-style:normal;
+	font-size:18px;
+}
+.rascals-admin-link:before {
+	top:4px;
+	content: "\f108";
+}
+.rascals-admin-header .nav-tab {
+	font-size:14px;
+}
+
+.rascals-admin-header .nav-tab.inactive {
+	opacity:0.6;
+	color: currentColor;
+  	cursor: not-allowed;
+}
+
+
+/* Notices
+  -------------------------------- */ 
+.about-wrap .notice,
+.about-wrap div.error, 
+.about-wrap div.updated {
+	margin:40px;
+    display:none !important;
+}
+.about-wrap .rascals-notice {
+	display: block !important;
+}
+
+.rascals-admin-notice {
+	padding:20px;
+	font-size:16px;
+	background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    margin-bottom:30px;
+}
+.rascals-admin-notice.warning {
+	border-left-color:#ffb900;
+}
+
+
+/* Main Container
+ -------------------------------- */
+.rascals-admin-wrap {
+	position: relative;
+	margin: 26px 30px 0 20px;
+	max-width: 1050px;
+	clear: both;
+}
+
+.about-wrap .feature-section .col {
+    margin-top: 40px;
+}
+.about-wrap [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+.about-wrap [class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+@media only screen and (max-width: 500px) {
+	.about-wrap .three-col .col, .about-wrap .two-col .col {
+    	min-width: 100%!important;
+    }
+    .about-wrap [class$="-col"] .col+.col {
+	    margin-left: 0px;
+	}
+}
+
+.about-wrap [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Texts
+ -------------------------------- */
+.rascals-theme-name {
+	font-size:33px;
+	margin-top:20px;
+	margin-bottom:-20px;
+	margin-left:20px;
+	position:relative;
+	z-index:10;
+}
+	.rascals-theme-name span {
+		opacity:0.5
+	}
+.rascals-version {
+	font-size: 15px;
+}
+.rascals-admin-wrap .about-text {
+ 	width: 100%;
+}
+.rascals-admin-wrap p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* Plugins
+ -------------------------------- */
+.rascals-plugins-wrap {}
+
+.rascals-plugins-wrap .subsubsub {
+	margin-top:-20px;
+}
+.rascals-plugins-wrap .plugin-status {
+	font-size:12px;
+	display:inline-block;
+	background-color: #6dd6a7;
+	color:#fff;
+	padding:2px 10px;
+	border-radius: 5px;
+}
+.rascals-plugins-wrap br.clear {
+	display:none;
+}
+.rascals-plugins-wrap .tablenav {
+	height:auto;
+}
+#tgmpa-no-plugins {
+	font-size:17px;
+	font-weight:500;
+	display:none;
+}
+
+
+/* List
+ -------------------------------- */
+ .rascals-list {
+ 	margin-bottom:25px;
+ 	font-size:15px;
+ 	list-style-type: circle;
+
+ }
+.rascals-list li {
+	margin-left:35px;
+}
+
+/* System Status
+ -------------------------------- */
+.feature-section.clear p {
+	padding: 0;
+	font-size: 14px;
+}
+table.rascals-system {
+	margin-bottom: 20px;
+}
+table.rascals-system h2 {
+ 	text-align: left;
+ 	font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+table.rascals-system tr:nth-child(2n) td,  table.rascals-system tr:nth-child(2n) th {
+    background: #fcfcfc;
+}
+table.rascals-system td.label {
+    width: 33.3%;
+}
+table.rascals-system td.help {
+    width: 1em;
+}
+table.rascals-system .status.good {
+	color:#7ad03a;
+}
+table.rascals-system .status.bad {
+	color:red;
+}
+
+#kc-settings #kc_product_license .unverified,
+#kc-pro-license-inp,
+#kc_pro .kc-notice,
+#kc_pro-tab,
+.kc-license-notice,
+html .kc-preload-body .notice,
+#kc-bar-logo,
+#kc-bar-tour-view,
+#kc-controls .optimized-page,
+#kc-controls .save-page-content,
+#kc-settings-verify-btn,
+#kc-settings #kc_product_license .see-key,
+#kc_product_license h3, #kc_product_license hr,
+#kc-footers .kc-add-sections,
+#kc-footers .kc-online-presets {
+	display: none;
+}
+#kc-container.collapse:after {
+	content: "Page builder is collapsed";
+}
+
+/* KC Design
+ -------------------------------- */
+body .kc-presets-list .kc-preset-wrp .kc-preset-outer ul {
+    display:inline-block;
+    width: 100%;
+}
+.kc-preset-inelm .kc-preset-wrp .kc-preset-item {
+    width: calc(50% - 20px);
+}

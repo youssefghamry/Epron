@@ -1,0 +1,4663 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Epron Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-30 19:10+0200\n"
+"POT-Revision-Date: Thu Apr 21 2016 20:58:10 GMT+0200 (Central European "
+"Daylight Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: admin <office@rascals.eu>\n"
+"Language-Team: Rascals Themes\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: epron-toolkit.php:332
+msgid ""
+"Rascals Toolkit plugin is already activated, it was probably used by another "
+"Rascals Theme. Please dectivate old Toolkit plugin and activate new one."
+msgstr ""
+
+#: epron-toolkit.php:343
+msgid ""
+"Epron Toolkit plugin is not compatible with installed theme. Please "
+"deactivate and activate your parent theme again or install compatible plugin "
+"with your theme version."
+msgstr ""
+
+#: epron-toolkit.php:354
+msgid ""
+"Epron Toolkit is currently disabled, please deactivate and remove Epron "
+"Extensions plug-in to activate it. This is an outdated version and is not "
+"compatible with your theme."
+msgstr ""
+
+#: epron-toolkit.php:434
+msgid "Theme Settings"
+msgstr ""
+
+#: includes/class-admin.php:55 includes/class-admin.php:56
+msgid "Welcome"
+msgstr ""
+
+#: includes/class-admin.php:60 includes/class-admin.php:61
+#: includes/class-admin.php:115
+msgid "System Status"
+msgstr ""
+
+#: includes/class-admin.php:65 includes/class-admin.php:66
+msgid "Theme Plugins"
+msgstr ""
+
+#: includes/class-admin.php:70 includes/class-admin.php:71
+#: includes/importer/class-importer.php:149
+msgid "Install Demos"
+msgstr ""
+
+#: includes/class-admin.php:75 includes/class-admin.php:76
+msgid "Customize"
+msgstr ""
+
+#: includes/class-admin.php:80 includes/class-admin.php:81
+msgid "Theme Panel"
+msgstr ""
+
+#: includes/class-admin.php:89
+msgid "Please install Kirki Customizer plugin to activate this tab."
+msgstr ""
+
+#: includes/class-admin.php:195
+msgid "Check that all the requirements below."
+msgstr ""
+
+#: includes/class-admin.php:207
+msgid "WordPress environment"
+msgstr ""
+
+#: includes/class-admin.php:221
+msgid "It is recommended to update WordPress to the latest version"
+msgstr ""
+
+#: includes/class-admin.php:227
+msgid "WordPress version"
+msgstr ""
+
+#: includes/class-admin.php:234
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/class-admin.php:261
+#, php-format
+msgid "It is recommended to increase your WP memory limit to %s at least"
+msgstr ""
+
+#: includes/class-admin.php:267
+msgid "WP Memory Limit"
+msgstr ""
+
+#: includes/class-admin.php:274
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/class-admin.php:304
+msgid "Server environment"
+msgstr ""
+
+#: includes/class-admin.php:318
+msgid "The theme needs at least PHP 7 installed on your server."
+msgstr ""
+
+#: includes/class-admin.php:321
+msgid ""
+"We recommend using PHP version 7.2 or above for greater performance and "
+"security."
+msgstr ""
+
+#: includes/class-admin.php:333
+msgid "PHP Version"
+msgstr ""
+
+#: includes/class-admin.php:340
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/class-admin.php:367
+#, php-format
+msgid "It is recommended to increase your max_input_var value to %s at least"
+msgstr ""
+
+#: includes/class-admin.php:373
+msgid "Max Input Vars"
+msgstr ""
+
+#: includes/class-admin.php:380
+msgid ""
+"The maximum amount of variable your server can use for a single function."
+msgstr ""
+
+#: includes/class-admin.php:407
+#, php-format
+msgid ""
+"It is recommended to increase your max_execution_time value to %s at least"
+msgstr ""
+
+#: includes/class-admin.php:413
+msgid "PHP Time Limit"
+msgstr ""
+
+#: includes/class-admin.php:420
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)."
+msgstr ""
+
+#: includes/class-admin.php:451
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: includes/class-admin.php:458
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: includes/class-admin.php:485
+#, php-format
+msgid "It is recommended to increase your server memory limit to %s at least"
+msgstr ""
+
+#: includes/class-admin.php:491
+msgid "Server Memory Limit"
+msgstr ""
+
+#: includes/class-admin.php:498
+msgid ""
+"The maximum amount of memory (RAM) that your server can use at one time."
+msgstr ""
+
+#: includes/class-admin.php:529
+msgid "Max Upload Size"
+msgstr ""
+
+#: includes/class-admin.php:536
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: includes/class-cpt.php:84 includes/class-cpt.php:176
+msgid "Sort Items"
+msgstr ""
+
+#: includes/class-cpt.php:184
+msgid "Edit This Post"
+msgstr ""
+
+#: includes/class-customizer-install.php:92
+msgid ""
+"Please install the Kirki plugin to take full advantage of this theme\\s "
+"customizer capabilities"
+msgstr ""
+
+#: includes/class-customizer-install.php:94
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: includes/class-customizer-install.php:95
+msgid "Install Now"
+msgstr ""
+
+#: includes/class-customizer-install.php:108
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+
+#: includes/class-customizer-install.php:110
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: includes/class-customizer-install.php:111
+msgid "Activate Now"
+msgstr ""
+
+#: includes/class-customizer.php:121 includes/metabox-options/artists.php:267
+#: includes/metabox-options/blog.php:57 includes/metabox-options/events.php:372
+#: includes/metabox-options/gallery.php:370
+#: includes/metabox-options/releases.php:334
+#: includes/widgets/class-widget-ad.php:122
+#: includes/widgets/class-widget-flickr.php:126
+#: includes/widgets/class-widget-instafeed.php:159
+#: includes/widgets/class-widget-recent-posts.php:129
+#: includes/widgets/class-widget-twitter.php:139
+msgid "General"
+msgstr ""
+
+#: includes/class-customizer.php:133
+msgid "Site Size"
+msgstr ""
+
+#: includes/class-customizer.php:140
+msgid "Small (980px)"
+msgstr ""
+
+#: includes/class-customizer.php:141
+msgid "Wide (1170px)"
+msgstr ""
+
+#: includes/class-customizer.php:150
+msgid "Show Loader"
+msgstr ""
+
+#: includes/class-customizer.php:156
+msgid "Please note loader is not visible in customizer mode."
+msgstr ""
+
+#: includes/class-customizer.php:164
+msgid "Show Top Button"
+msgstr ""
+
+#: includes/class-customizer.php:170
+msgid "Show scroll to top button."
+msgstr ""
+
+#: includes/class-customizer.php:178
+msgid "Colors"
+msgstr ""
+
+#: includes/class-customizer.php:190
+msgid "Main Color Scheme"
+msgstr ""
+
+#: includes/class-customizer.php:197 includes/class-kc.php:3949
+msgid "Dark"
+msgstr ""
+
+#: includes/class-customizer.php:198 includes/class-kc.php:3950
+msgid "Light"
+msgstr ""
+
+#: includes/class-customizer.php:207
+msgid "Accent Color"
+msgstr ""
+
+#: includes/class-customizer.php:390
+msgid "Headers"
+msgstr ""
+
+#: includes/class-customizer.php:392
+msgid "This panel will provide all the options of the header."
+msgstr ""
+
+#: includes/class-customizer.php:400
+msgid "Top Header"
+msgstr ""
+
+#: includes/class-customizer.php:413
+msgid "Show Top Header"
+msgstr ""
+
+#: includes/class-customizer.php:425
+msgid "Show Search"
+msgstr ""
+
+#: includes/class-customizer.php:445
+msgid "Show WooCommerce Cart"
+msgstr ""
+
+#: includes/class-customizer.php:451
+msgid ""
+"Display cart details in header. Please note WOOCOMMERCE plugin must be "
+"installed."
+msgstr ""
+
+#: includes/class-customizer.php:466
+msgid "Main Header"
+msgstr ""
+
+#: includes/class-customizer.php:480
+msgid "Header Style"
+msgstr ""
+
+#: includes/class-customizer.php:487
+msgid "Left Black"
+msgstr ""
+
+#: includes/class-customizer.php:496
+msgid "Logo"
+msgstr ""
+
+#: includes/class-customizer.php:509
+msgid "Logo (Transparent Header)"
+msgstr ""
+
+#: includes/class-customizer.php:515
+msgid ""
+"This Logo image will be displayed on transparent background on hero header "
+"image."
+msgstr ""
+
+#: includes/class-customizer.php:523
+msgid "Logo (Mobile Menu)"
+msgstr ""
+
+#: includes/class-customizer.php:529
+msgid "This Logo image will be displayed on mobile (responsive) menu."
+msgstr ""
+
+#: includes/class-customizer.php:537
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/class-customizer.php:551
+msgid "Sidebars"
+msgstr ""
+
+#: includes/class-customizer.php:552
+msgid "This panel will provide all the options of the sidebar and slidebar."
+msgstr ""
+
+#: includes/class-customizer.php:562 includes/class-kc.php:3175
+msgid "Sidebar"
+msgstr ""
+
+#: includes/class-customizer.php:576
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: includes/class-customizer.php:582
+msgid ""
+"From here you can enable and disable the sticky sidebar on all the "
+"templates. The sticky sidebar that has auto resize and it scrolls with the "
+"content. The sticky_sidebar reverts back to a normal sidebar on iOS (iPad) "
+"and on mobile devices. If you plan to use Google AdSense in the sidebar "
+"don't enable this feature. Google's policy doesn't allow placing the ad in a "
+"\"floating box\", you can read more about it "
+msgstr ""
+
+#: includes/class-customizer.php:582
+msgid "here"
+msgstr ""
+
+#: includes/class-customizer.php:591
+msgid "Pages/Posts"
+msgstr ""
+
+#: includes/class-customizer.php:602
+msgid "Default hero background"
+msgstr ""
+
+#: includes/class-customizer.php:614
+msgid "Show Line?"
+msgstr ""
+
+#: includes/class-customizer.php:620
+msgid "Show line in hero area (below title)"
+msgstr ""
+
+#: includes/class-customizer.php:627
+msgid "Show Share Buttons?"
+msgstr ""
+
+#: includes/class-customizer.php:633
+msgid "Show share buttons in hero area (below title)"
+msgstr ""
+
+#: includes/class-customizer.php:640
+msgid "Show Post Details"
+msgstr ""
+
+#: includes/class-customizer.php:646
+msgid "Show date and categories in hero area (above title)"
+msgstr ""
+
+#: includes/class-customizer.php:653
+msgid "Show Author Box"
+msgstr ""
+
+#: includes/class-customizer.php:659
+msgid "Show author box below post content."
+msgstr ""
+
+#: includes/class-customizer.php:666
+msgid "Show Related Posts"
+msgstr ""
+
+#: includes/class-customizer.php:672
+msgid "Show related posts below post content."
+msgstr ""
+
+#: includes/class-customizer.php:680 includes/class-kc.php:3177
+msgid "Footer"
+msgstr ""
+
+#: includes/class-customizer.php:681
+msgid "This panel will provide all the options of the footer."
+msgstr ""
+
+#: includes/class-customizer.php:689
+msgid "Footer Top"
+msgstr ""
+
+#: includes/class-customizer.php:702
+msgid "Show Footer Top?"
+msgstr ""
+
+#: includes/class-customizer.php:708
+msgid "Show top footer section."
+msgstr ""
+
+#: includes/class-customizer.php:716
+msgid "Address"
+msgstr ""
+
+#: includes/class-customizer.php:735
+msgid "Phone"
+msgstr ""
+
+#: includes/class-customizer.php:755
+msgid "Email"
+msgstr ""
+
+#: includes/class-customizer.php:775
+msgid "Social Buttons"
+msgstr ""
+
+#: includes/class-customizer.php:782
+msgid "Social Button:"
+msgstr ""
+
+#: includes/class-customizer.php:811
+msgid "Social Media"
+msgstr ""
+
+#: includes/class-customizer.php:812
+msgid "Select your social media button"
+msgstr ""
+
+#: includes/class-customizer.php:818 includes/class-kc.php:2275
+#: includes/class-kc.php:2305
+#: includes/metabox-fields/media_manager/media_manager_slider.php:207
+msgid "Link"
+msgstr ""
+
+#: includes/class-customizer.php:819
+msgid "Type your social link"
+msgstr ""
+
+#: includes/class-customizer.php:837
+msgid "Left Column Classes (Advanced)"
+msgstr ""
+
+#: includes/class-customizer.php:843
+msgid ""
+"Change or add CSS classes to the left column. Theme is designed for 12 "
+"columns grid."
+msgstr ""
+
+#: includes/class-customizer.php:858
+msgid "Right Column Classes (Advanced)"
+msgstr ""
+
+#: includes/class-customizer.php:864
+msgid ""
+"Change or add CSS classes to the right column. Theme is designed for 12 "
+"columns grid."
+msgstr ""
+
+#: includes/class-customizer.php:879
+msgid "Footer Widgets"
+msgstr ""
+
+#: includes/class-customizer.php:891
+msgid "Show Footer Widgets?"
+msgstr ""
+
+#: includes/class-customizer.php:897
+msgid "Show footer widgets."
+msgstr ""
+
+#: includes/class-customizer.php:905
+msgid "Footer Bottom"
+msgstr ""
+
+#: includes/class-customizer.php:918
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/class-customizer.php:931
+msgid "Show Twitter"
+msgstr ""
+
+#: includes/class-customizer.php:937
+msgid "Show recent tweets in footer section."
+msgstr ""
+
+#: includes/class-customizer.php:944 includes/class-kc.php:2995
+#: includes/widgets/class-widget-instafeed.php:178
+#: includes/widgets/class-widget-twitter.php:158
+msgid "Username"
+msgstr ""
+
+#: includes/class-customizer.php:963
+#: includes/widgets/class-widget-twitter.php:167
+msgid "API Key"
+msgstr ""
+
+#: includes/class-customizer.php:982
+msgid "API Secret Key"
+msgstr ""
+
+#: includes/class-customizer.php:1002
+msgid "Show Replies"
+msgstr ""
+
+#: includes/class-customizer.php:1008
+msgid "Choose whether you want to show replies in your twitter widget or not."
+msgstr ""
+
+#: includes/class-customizer.php:1023
+msgid "Number of Tweets"
+msgstr ""
+
+#: includes/class-customizer.php:1029
+msgid "Number of tweets to display."
+msgstr ""
+
+#: includes/class-customizer.php:1050 includes/class-register-metaboxes.php:223
+msgid "Select Section"
+msgstr ""
+
+#: includes/class-kc.php:111
+msgid "Click Actions"
+msgstr ""
+
+#: includes/class-kc.php:114 includes/class-kc.php:174
+#: includes/class-kc.php:226 includes/class-kc.php:288
+#: includes/class-kc.php:305 includes/class-kc.php:827
+#: includes/class-kc.php:844 includes/class-kc.php:1348
+#: includes/class-kc.php:1365 includes/class-kc.php:1874
+#: includes/class-kc.php:1887 includes/metabox-options/artists.php:505
+#: includes/metabox-options/events.php:89
+#: includes/metabox-options/events.php:618
+#: includes/metabox-options/gallery.php:608
+#: includes/metabox-options/releases.php:269
+#: includes/metabox-options/releases.php:572
+msgid "None"
+msgstr ""
+
+#: includes/class-kc.php:115
+msgid "Link to large image"
+msgstr ""
+
+#: includes/class-kc.php:116
+msgid "Open Image In Lightbox"
+msgstr ""
+
+#: includes/class-kc.php:117
+msgid "Open Link In Lightbox (Youtube, Vimeo, Soundcloud...)"
+msgstr ""
+
+#: includes/class-kc.php:118
+msgid "Open Custom Link"
+msgstr ""
+
+#: includes/class-kc.php:129
+msgid "Iframe Link"
+msgstr ""
+
+#: includes/class-kc.php:132
+msgid "Enter iframe link."
+msgstr ""
+
+#: includes/class-kc.php:144 includes/metabox-options/gallery.php:295
+#: includes/metabox-options/releases.php:242
+msgid "Tooltip Title"
+msgstr ""
+
+#: includes/class-kc.php:147 includes/metabox-options/gallery.php:300
+#: includes/metabox-options/releases.php:247
+msgid "Custom tooltip title."
+msgstr ""
+
+#: includes/class-kc.php:157 includes/metabox-options/gallery.php:305
+#: includes/metabox-options/releases.php:252
+msgid "Tooltip Text"
+msgstr ""
+
+#: includes/class-kc.php:160 includes/class-kc.php:178
+#: includes/metabox-options/gallery.php:312
+#: includes/metabox-options/releases.php:259
+msgid "Tooltip text."
+msgstr ""
+
+#: includes/class-kc.php:170
+msgid "Image Effect"
+msgstr ""
+
+#: includes/class-kc.php:175
+msgid "Overlay"
+msgstr ""
+
+#: includes/class-kc.php:176
+msgid "Thumb Slide"
+msgstr ""
+
+#: includes/class-kc.php:188 includes/metabox-options/releases.php:232
+msgid "Hover Image"
+msgstr ""
+
+#: includes/class-kc.php:191 includes/metabox-options/releases.php:237
+msgid "The picture will be shown when you hover the mouse."
+msgstr ""
+
+#: includes/class-kc.php:205
+msgid "Icon Overlay"
+msgstr ""
+
+#: includes/class-kc.php:207
+msgid "The icon show on center of overlay laver."
+msgstr ""
+
+#: includes/class-kc.php:222
+msgid "Badge"
+msgstr ""
+
+#: includes/class-kc.php:227 includes/metabox-options/releases.php:270
+msgid "New"
+msgstr ""
+
+#: includes/class-kc.php:228 includes/metabox-options/releases.php:271
+msgid "Free"
+msgstr ""
+
+#: includes/class-kc.php:230
+msgid "Select badge. It will be displayed on the image."
+msgstr ""
+
+#: includes/class-kc.php:246
+msgid "Artists Block"
+msgstr ""
+
+#: includes/class-kc.php:247
+msgid ""
+"Display an extremely impressive artists profiles with many beautiful styles."
+msgstr ""
+
+#: includes/class-kc.php:253 includes/class-kc.php:793
+#: includes/class-kc.php:1304 includes/class-kc.php:1843
+#: includes/class-kc.php:2714
+msgid "Block"
+msgstr ""
+
+#: includes/class-kc.php:258 includes/class-kc.php:798
+#: includes/class-kc.php:1848 includes/class-kc.php:2719
+#: includes/metabox-options/artists.php:465
+#: includes/metabox-options/blog.php:256
+#: includes/metabox-options/gallery.php:71
+#: includes/metabox-options/gallery.php:568
+#: includes/metabox-options/releases.php:532
+msgid "Block 1"
+msgstr ""
+
+#: includes/class-kc.php:260 includes/class-kc.php:800
+#: includes/class-kc.php:1312 includes/class-kc.php:1851
+#: includes/class-kc.php:2723
+msgid "Select posts block."
+msgstr ""
+
+#: includes/class-kc.php:264
+msgid "Artists on Row"
+msgstr ""
+
+#: includes/class-kc.php:269
+msgid "1 Artist"
+msgstr ""
+
+#: includes/class-kc.php:270
+msgid "2 Artists"
+msgstr ""
+
+#: includes/class-kc.php:271
+msgid "3 Artists"
+msgstr ""
+
+#: includes/class-kc.php:272
+msgid "4 Artists"
+msgstr ""
+
+#: includes/class-kc.php:273
+msgid "5 Artists"
+msgstr ""
+
+#: includes/class-kc.php:275 includes/class-kc.php:814
+#: includes/class-kc.php:1148 includes/class-kc.php:1335
+#: includes/class-kc.php:1865
+msgid "Select number of items per row."
+msgstr ""
+
+#: includes/class-kc.php:283 includes/class-kc.php:822
+#: includes/class-kc.php:1343 includes/class-kc.php:1869
+msgid "Ajax Pagination"
+msgstr ""
+
+#: includes/class-kc.php:289 includes/class-kc.php:828
+#: includes/class-kc.php:1349 includes/class-kc.php:1875
+#: includes/metabox-options/artists.php:492
+#: includes/metabox-options/blog.php:293
+#: includes/metabox-options/events.php:605
+#: includes/metabox-options/gallery.php:595
+#: includes/metabox-options/releases.php:559
+msgid "Load More Button"
+msgstr ""
+
+#: includes/class-kc.php:290 includes/class-kc.php:829
+#: includes/class-kc.php:1350 includes/class-kc.php:1876
+msgid "Infinite Loading"
+msgstr ""
+
+#: includes/class-kc.php:292 includes/class-kc.php:831
+#: includes/class-kc.php:1352 includes/class-kc.php:1878
+msgid "Select ajax pagination."
+msgstr ""
+
+#: includes/class-kc.php:300 includes/class-kc.php:839
+#: includes/class-kc.php:1360 includes/class-kc.php:1882
+#: includes/metabox-options/artists.php:500
+#: includes/metabox-options/events.php:613
+#: includes/metabox-options/gallery.php:603
+#: includes/metabox-options/releases.php:567
+msgid "Ajax Filter"
+msgstr ""
+
+#: includes/class-kc.php:306 includes/class-kc.php:845
+#: includes/class-kc.php:1366 includes/class-kc.php:1888
+#: includes/metabox-options/artists.php:506
+#: includes/metabox-options/events.php:619
+#: includes/metabox-options/gallery.php:609
+#: includes/metabox-options/releases.php:573
+msgid "On Left"
+msgstr ""
+
+#: includes/class-kc.php:307 includes/class-kc.php:846
+#: includes/class-kc.php:1367 includes/class-kc.php:1889
+#: includes/metabox-options/artists.php:507
+#: includes/metabox-options/events.php:620
+#: includes/metabox-options/gallery.php:610
+#: includes/metabox-options/releases.php:574
+msgid "Center"
+msgstr ""
+
+#: includes/class-kc.php:308 includes/class-kc.php:847
+#: includes/class-kc.php:1368 includes/class-kc.php:1890
+#: includes/metabox-options/artists.php:508
+#: includes/metabox-options/events.php:621
+#: includes/metabox-options/gallery.php:611
+#: includes/metabox-options/releases.php:575
+msgid "On Right"
+msgstr ""
+
+#: includes/class-kc.php:309 includes/class-kc.php:848
+#: includes/class-kc.php:1369 includes/class-kc.php:1891
+#: includes/metabox-options/artists.php:509
+#: includes/metabox-options/events.php:622
+#: includes/metabox-options/gallery.php:612
+#: includes/metabox-options/releases.php:576
+msgid "Multiple Filters"
+msgstr ""
+
+#: includes/class-kc.php:311 includes/class-kc.php:850
+#: includes/class-kc.php:1371 includes/class-kc.php:1893
+msgid "Display Ajax filter above grid."
+msgstr ""
+
+#: includes/class-kc.php:319 includes/class-kc.php:858
+#: includes/class-kc.php:1379 includes/class-kc.php:1897
+#: includes/metabox-options/artists.php:521
+#: includes/metabox-options/events.php:634
+#: includes/metabox-options/gallery.php:624
+#: includes/metabox-options/releases.php:588
+msgid "Selection Method"
+msgstr ""
+
+#: includes/class-kc.php:324 includes/class-kc.php:863
+#: includes/class-kc.php:1384 includes/class-kc.php:1902
+msgid "Multiple"
+msgstr ""
+
+#: includes/class-kc.php:325 includes/class-kc.php:864
+#: includes/class-kc.php:1385 includes/class-kc.php:1903
+msgid "Single"
+msgstr ""
+
+#: includes/class-kc.php:327 includes/class-kc.php:866
+#: includes/class-kc.php:1387 includes/class-kc.php:1905
+#: includes/metabox-options/artists.php:530
+#: includes/metabox-options/events.php:643
+#: includes/metabox-options/gallery.php:633
+#: includes/metabox-options/releases.php:597
+msgid "Select filter selection method."
+msgstr ""
+
+#: includes/class-kc.php:335 includes/class-kc.php:874
+#: includes/class-kc.php:1395 includes/class-kc.php:1913
+#: includes/metabox-options/artists.php:539
+#: includes/metabox-options/events.php:652
+#: includes/metabox-options/gallery.php:642
+#: includes/metabox-options/releases.php:606
+msgid "Show filters on Start"
+msgstr ""
+
+#: includes/class-kc.php:340 includes/class-kc.php:879
+#: includes/class-kc.php:1400 includes/class-kc.php:1918
+#: includes/metabox-fields/media_manager/media_manager_audio.php:55
+#: includes/metabox-fields/media_manager/media_manager_images.php:50
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:50
+#: includes/metabox-fields/media_manager/media_manager_slider.php:60
+msgid "Yes"
+msgstr ""
+
+#: includes/class-kc.php:341 includes/class-kc.php:880
+#: includes/class-kc.php:1401 includes/class-kc.php:1919
+#: includes/metabox-fields/media_manager/media_manager_audio.php:54
+#: includes/metabox-fields/media_manager/media_manager_images.php:49
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:49
+#: includes/metabox-fields/media_manager/media_manager_slider.php:59
+msgid "No"
+msgstr ""
+
+#: includes/class-kc.php:343 includes/class-kc.php:882
+#: includes/class-kc.php:1403 includes/class-kc.php:1921
+#: includes/metabox-options/artists.php:548
+#: includes/metabox-options/events.php:661
+#: includes/metabox-options/gallery.php:651
+#: includes/metabox-options/releases.php:615
+msgid ""
+"Show filters when page is loaded. Otherwise the filters are shown after "
+"clicking the \"Filters\" button."
+msgstr ""
+
+#: includes/class-kc.php:351 includes/class-kc.php:522
+#: includes/class-kc.php:577 includes/class-kc.php:754
+#: includes/class-kc.php:890 includes/class-kc.php:1085
+#: includes/class-kc.php:1251 includes/class-kc.php:1411
+#: includes/class-kc.php:1594 includes/class-kc.php:1747
+#: includes/class-kc.php:1786 includes/class-kc.php:1929
+#: includes/class-kc.php:2011 includes/class-kc.php:2105
+#: includes/class-kc.php:2195 includes/class-kc.php:2346
+#: includes/class-kc.php:2434 includes/class-kc.php:2580
+#: includes/class-kc.php:2658 includes/class-kc.php:2779
+#: includes/class-kc.php:2895 includes/class-kc.php:2955
+#: includes/class-kc.php:3113
+#: includes/metabox-fields/bg_generator/bg_generator.php:245
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-kc.php:356 includes/class-kc.php:527
+#: includes/class-kc.php:582 includes/class-kc.php:759
+#: includes/class-kc.php:895 includes/class-kc.php:1090
+#: includes/class-kc.php:1256 includes/class-kc.php:1416
+#: includes/class-kc.php:1599 includes/class-kc.php:1752
+#: includes/class-kc.php:1791 includes/class-kc.php:1934
+#: includes/class-kc.php:2016 includes/class-kc.php:2110
+#: includes/class-kc.php:2200 includes/class-kc.php:2351
+#: includes/class-kc.php:2430 includes/class-kc.php:2439
+#: includes/class-kc.php:2585 includes/class-kc.php:2663
+#: includes/class-kc.php:2784 includes/class-kc.php:2900
+#: includes/class-kc.php:2960 includes/class-kc.php:3118
+msgid "Select color scheme."
+msgstr ""
+
+#: includes/class-kc.php:360 includes/class-kc.php:531
+#: includes/class-kc.php:586 includes/class-kc.php:763
+#: includes/class-kc.php:899 includes/class-kc.php:1094
+#: includes/class-kc.php:1170 includes/class-kc.php:1260
+#: includes/class-kc.php:1420 includes/class-kc.php:1603
+#: includes/class-kc.php:1756 includes/class-kc.php:1795
+#: includes/class-kc.php:1938 includes/class-kc.php:2020
+#: includes/class-kc.php:2114 includes/class-kc.php:2155
+#: includes/class-kc.php:2204 includes/class-kc.php:2355
+#: includes/class-kc.php:2443 includes/class-kc.php:2589
+#: includes/class-kc.php:2667 includes/class-kc.php:2788
+#: includes/class-kc.php:2904 includes/class-kc.php:2972
+#: includes/class-kc.php:3122 includes/class-kc.php:3189
+msgid "Extra Class Name"
+msgstr ""
+
+#: includes/class-kc.php:364 includes/class-kc.php:535
+#: includes/class-kc.php:590 includes/class-kc.php:767
+#: includes/class-kc.php:903 includes/class-kc.php:1098
+#: includes/class-kc.php:1174 includes/class-kc.php:1264
+#: includes/class-kc.php:1424 includes/class-kc.php:1607
+#: includes/class-kc.php:1760 includes/class-kc.php:1799
+#: includes/class-kc.php:1942 includes/class-kc.php:2118
+#: includes/class-kc.php:2159 includes/class-kc.php:2208
+#: includes/class-kc.php:2359 includes/class-kc.php:2447
+#: includes/class-kc.php:2593 includes/class-kc.php:2671
+#: includes/class-kc.php:2792 includes/class-kc.php:2908
+#: includes/class-kc.php:2976 includes/class-kc.php:3126
+#: includes/class-kc.php:3193
+msgid ""
+"If you wish to style a particular content element differently, please add a "
+"class name to this field and refer to it in your custom CSS file."
+msgstr ""
+
+#: includes/class-kc.php:367 includes/class-kc.php:538
+#: includes/class-kc.php:770 includes/class-kc.php:906
+#: includes/class-kc.php:1427 includes/class-kc.php:1610
+#: includes/class-kc.php:1763 includes/class-kc.php:1802
+#: includes/class-kc.php:1945 includes/class-kc.php:2596
+#: includes/class-kc.php:2674 includes/class-kc.php:2795
+msgid "Extra Module Class Name"
+msgstr ""
+
+#: includes/class-kc.php:371 includes/class-kc.php:542
+#: includes/class-kc.php:774 includes/class-kc.php:910
+#: includes/class-kc.php:1431 includes/class-kc.php:1614
+#: includes/class-kc.php:1767 includes/class-kc.php:1806
+#: includes/class-kc.php:1949 includes/class-kc.php:2600
+#: includes/class-kc.php:2678 includes/class-kc.php:2799
+msgid ""
+"If you wish to style loop module differently, please add a class name to "
+"this field and refer to it in your custom CSS file. Tip: no-cut-corners - "
+"disbale cut corners in module."
+msgstr ""
+
+#: includes/class-kc.php:377 includes/class-kc.php:595
+#: includes/class-kc.php:916 includes/class-kc.php:1179
+#: includes/class-kc.php:1437 includes/class-kc.php:1812
+#: includes/class-kc.php:1955 includes/class-kc.php:2029
+#: includes/class-kc.php:2164 includes/class-kc.php:2805
+#: includes/class-kc.php:3131 includes/class-kc.php:3198
+msgid "Box CSS"
+msgstr ""
+
+#: includes/class-kc.php:390 includes/class-kc.php:610
+#: includes/class-kc.php:929 includes/class-kc.php:1192
+#: includes/class-kc.php:1286 includes/class-kc.php:1450
+#: includes/class-kc.php:1825 includes/class-kc.php:1968
+#: includes/class-kc.php:2049 includes/class-kc.php:2177
+#: includes/class-kc.php:2818 includes/class-kc.php:3143
+#: includes/class-kc.php:3210
+msgid "Box wrapper CSS"
+msgstr ""
+
+#: includes/class-kc.php:401
+msgid "Artists Carousel"
+msgstr ""
+
+#: includes/class-kc.php:402 includes/class-kc.php:1980
+msgid "Display videos in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:408
+msgid "Video Module"
+msgstr ""
+
+#: includes/class-kc.php:413 includes/class-kc.php:633
+#: includes/class-kc.php:1473 includes/class-kc.php:1638
+#: includes/class-kc.php:2470
+msgid "Module 1"
+msgstr ""
+
+#: includes/class-kc.php:415 includes/class-kc.php:635
+#: includes/class-kc.php:1475 includes/class-kc.php:1640
+#: includes/class-kc.php:2473
+msgid "Select post module."
+msgstr ""
+
+#: includes/class-kc.php:419 includes/class-kc.php:651
+#: includes/class-kc.php:982 includes/class-kc.php:1491
+#: includes/class-kc.php:1644 includes/class-kc.php:2477
+msgid "Items per slide"
+msgstr ""
+
+#: includes/class-kc.php:429 includes/class-kc.php:661
+#: includes/class-kc.php:992 includes/class-kc.php:1501
+#: includes/class-kc.php:1654 includes/class-kc.php:2487
+msgid "The number of items displayed per slide (not apply for auto-height)"
+msgstr ""
+
+#: includes/class-kc.php:433 includes/class-kc.php:665
+#: includes/class-kc.php:996 includes/class-kc.php:1505
+#: includes/class-kc.php:1658 includes/class-kc.php:2491
+msgid "Items On Tablet?"
+msgstr ""
+
+#: includes/class-kc.php:443 includes/class-kc.php:675
+#: includes/class-kc.php:1006 includes/class-kc.php:1515
+#: includes/class-kc.php:1668 includes/class-kc.php:2501
+msgid "Display number of items per each slide (Tablet Screen)"
+msgstr ""
+
+#: includes/class-kc.php:447 includes/class-kc.php:679
+#: includes/class-kc.php:1010 includes/class-kc.php:1519
+#: includes/class-kc.php:1672 includes/class-kc.php:2505
+msgid "Items On Smartphone?"
+msgstr ""
+
+#: includes/class-kc.php:457 includes/class-kc.php:689
+#: includes/class-kc.php:1020 includes/class-kc.php:1529
+#: includes/class-kc.php:1682 includes/class-kc.php:2515
+msgid "Display number of items per each slide (Mobile Screen)"
+msgstr ""
+
+#: includes/class-kc.php:461 includes/class-kc.php:693
+#: includes/class-kc.php:1024 includes/class-kc.php:1533
+#: includes/class-kc.php:1686 includes/class-kc.php:2519
+#: includes/class-kc.php:2619
+msgid "Speed"
+msgstr ""
+
+#: includes/class-kc.php:471 includes/class-kc.php:703
+#: includes/class-kc.php:1034 includes/class-kc.php:1543
+#: includes/class-kc.php:1696 includes/class-kc.php:2529
+#: includes/class-kc.php:2629
+msgid "Set the speed at which autoplaying sliders will transition in second"
+msgstr ""
+
+#: includes/class-kc.php:475 includes/class-kc.php:707
+#: includes/class-kc.php:1038 includes/class-kc.php:1547
+#: includes/class-kc.php:1700 includes/class-kc.php:2533
+msgid "Navigation"
+msgstr ""
+
+#: includes/class-kc.php:479 includes/class-kc.php:711
+#: includes/class-kc.php:1042 includes/class-kc.php:1551
+#: includes/class-kc.php:1704 includes/class-kc.php:2537
+msgid "Display the \"Next\" and \"Prev\" buttons."
+msgstr ""
+
+#: includes/class-kc.php:483 includes/class-kc.php:715
+#: includes/class-kc.php:1046 includes/class-kc.php:1555
+#: includes/class-kc.php:1708 includes/class-kc.php:2541
+msgid "Navigation Style"
+msgstr ""
+
+#: includes/class-kc.php:488 includes/class-kc.php:720
+#: includes/class-kc.php:1051 includes/class-kc.php:1560
+#: includes/class-kc.php:1713 includes/class-kc.php:2546
+msgid "Arrows"
+msgstr ""
+
+#: includes/class-kc.php:490 includes/class-kc.php:722
+#: includes/class-kc.php:1053 includes/class-kc.php:1562
+#: includes/class-kc.php:1715 includes/class-kc.php:2548
+msgid "Select how navigation buttons display on slide."
+msgstr ""
+
+#: includes/class-kc.php:498 includes/class-kc.php:730
+#: includes/class-kc.php:1061 includes/class-kc.php:1570
+#: includes/class-kc.php:1723 includes/class-kc.php:2556
+#: includes/class-kc.php:2633
+msgid "Pagination"
+msgstr ""
+
+#: includes/class-kc.php:502 includes/class-kc.php:734
+#: includes/class-kc.php:1065 includes/class-kc.php:1574
+#: includes/class-kc.php:1727 includes/class-kc.php:2560
+#: includes/class-kc.php:2637
+msgid "Show the pagination."
+msgstr ""
+
+#: includes/class-kc.php:506 includes/class-kc.php:738
+#: includes/class-kc.php:1069 includes/class-kc.php:1578
+#: includes/class-kc.php:1731 includes/class-kc.php:2564
+msgid "Auto height"
+msgstr ""
+
+#: includes/class-kc.php:510 includes/class-kc.php:742
+#: includes/class-kc.php:1073 includes/class-kc.php:1582
+#: includes/class-kc.php:1735 includes/class-kc.php:2568
+msgid ""
+"Add height to owl-wrapper-outer so you can use diffrent heights on slides. "
+"Use it only for one item per page setting."
+msgstr ""
+
+#: includes/class-kc.php:514 includes/class-kc.php:746
+#: includes/class-kc.php:1077 includes/class-kc.php:1586
+#: includes/class-kc.php:1739 includes/class-kc.php:2572
+#: includes/class-kc.php:2641
+msgid "Auto Play"
+msgstr ""
+
+#: includes/class-kc.php:518 includes/class-kc.php:750
+#: includes/class-kc.php:1081 includes/class-kc.php:1590
+#: includes/class-kc.php:1743 includes/class-kc.php:2576
+msgid "The carousel automatically plays when site loaded"
+msgstr ""
+
+#: includes/class-kc.php:554
+msgid "Stats List"
+msgstr ""
+
+#: includes/class-kc.php:555
+msgid "Display stats list"
+msgstr ""
+
+#: includes/class-kc.php:561
+msgid "Stats"
+msgstr ""
+
+#: includes/class-kc.php:566
+msgid ""
+"Add stats e.g.: coffees per year=1076 (Note: divide stats with linebreaks "
+"(Enter)). Minimum 6 stats."
+msgstr ""
+
+#: includes/class-kc.php:569
+msgid "Timer (s)"
+msgstr ""
+
+#: includes/class-kc.php:574
+msgid "Timer in secounds."
+msgstr ""
+
+#: includes/class-kc.php:621
+msgid "Gallery Albums Carousel"
+msgstr ""
+
+#: includes/class-kc.php:622
+msgid "Display gallery albums in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:628
+msgid "Gallery Module"
+msgstr ""
+
+#: includes/class-kc.php:639 includes/class-kc.php:970
+#: includes/class-kc.php:1479 includes/class-kc.php:2650
+#: includes/class-kc.php:2747
+msgid "Image size"
+msgstr ""
+
+#: includes/class-kc.php:644 includes/class-kc.php:975
+#: includes/class-kc.php:1484 includes/super-menu-walker.php:135
+msgid "Default"
+msgstr ""
+
+#: includes/class-kc.php:647 includes/class-kc.php:978
+#: includes/class-kc.php:1487
+msgid ""
+"Select image size. By default, the image size is set for the selected "
+"module. Note: In some modules it is not possible to change image size "
+"because it is set permanently."
+msgstr ""
+
+#: includes/class-kc.php:786
+msgid "Gallery Albums"
+msgstr ""
+
+#: includes/class-kc.php:787
+msgid "Display an extremely impressive gallery with many beautiful styles."
+msgstr ""
+
+#: includes/class-kc.php:804 includes/class-kc.php:1324
+#: includes/class-kc.php:1855
+msgid "Items on Row"
+msgstr ""
+
+#: includes/class-kc.php:809 includes/class-kc.php:1329
+msgid "1 Item"
+msgstr ""
+
+#: includes/class-kc.php:810 includes/class-kc.php:1330
+#: includes/class-kc.php:1860
+msgid "2 Items"
+msgstr ""
+
+#: includes/class-kc.php:811 includes/class-kc.php:1331
+#: includes/class-kc.php:1861
+msgid "3 Items"
+msgstr ""
+
+#: includes/class-kc.php:812 includes/class-kc.php:1332
+#: includes/class-kc.php:1862
+msgid "4 Items"
+msgstr ""
+
+#: includes/class-kc.php:940
+msgid "Gallery Images Carousel"
+msgstr ""
+
+#: includes/class-kc.php:941
+msgid "Display album images in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:947 includes/class-kc.php:1116
+msgid "Select Images Album"
+msgstr ""
+
+#: includes/class-kc.php:952 includes/class-kc.php:1121
+msgid ""
+"Select album. If there are no albums available, then you can add a album "
+"using Gallery menu on the left."
+msgstr ""
+
+#: includes/class-kc.php:956 includes/class-kc.php:1156
+#: includes/class-kc.php:3232 includes/class-kc.php:3324
+#: includes/class-kc.php:3449 includes/class-kc.php:3573
+#: includes/class-kc.php:3711 includes/metabox-options/artists.php:570
+#: includes/metabox-options/blog.php:315
+#: includes/metabox-options/events.php:683
+#: includes/metabox-options/gallery.php:673
+#: includes/metabox-options/releases.php:637
+msgid "Limit post number"
+msgstr ""
+
+#: includes/class-kc.php:967 includes/class-kc.php:1167
+#: includes/class-kc.php:3243 includes/class-kc.php:3335
+#: includes/class-kc.php:3460 includes/class-kc.php:3584
+#: includes/class-kc.php:3722
+msgid ""
+"If the field is set at \"0\" the limit post number will be the default "
+"number."
+msgstr ""
+
+#: includes/class-kc.php:1109
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/class-kc.php:1110
+msgid "Display images from gallery album."
+msgstr ""
+
+#: includes/class-kc.php:1125
+msgid "Grid Type"
+msgstr ""
+
+#: includes/class-kc.php:1130
+msgid "Flex Grid"
+msgstr ""
+
+#: includes/class-kc.php:1131
+msgid "Masonry"
+msgstr ""
+
+#: includes/class-kc.php:1133
+msgid "Select grid type."
+msgstr ""
+
+#: includes/class-kc.php:1137
+msgid "Images on Row"
+msgstr ""
+
+#: includes/class-kc.php:1142
+msgid "1 Image"
+msgstr ""
+
+#: includes/class-kc.php:1143
+msgid "2 Images"
+msgstr ""
+
+#: includes/class-kc.php:1144
+msgid "3 Images"
+msgstr ""
+
+#: includes/class-kc.php:1145
+msgid "4 Images"
+msgstr ""
+
+#: includes/class-kc.php:1146
+msgid "5 Images"
+msgstr ""
+
+#: includes/class-kc.php:1202
+msgid "Event Countdown"
+msgstr ""
+
+#: includes/class-kc.php:1203
+msgid "Display current event countdown."
+msgstr ""
+
+#: includes/class-kc.php:1209 includes/class-kc.php:2269
+msgid "Type"
+msgstr ""
+
+#: includes/class-kc.php:1214
+msgid "Big"
+msgstr ""
+
+#: includes/class-kc.php:1215 includes/class-kc.php:2769
+msgid "Small"
+msgstr ""
+
+#: includes/class-kc.php:1216
+msgid "Small with image"
+msgstr ""
+
+#: includes/class-kc.php:1218
+msgid "Select event countdown type."
+msgstr ""
+
+#: includes/class-kc.php:1222
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-kc.php:1232
+msgid "Select Custom Event?"
+msgstr ""
+
+#: includes/class-kc.php:1239
+msgid "Select Event"
+msgstr ""
+
+#: includes/class-kc.php:1269
+msgid "CSS"
+msgstr ""
+
+#: includes/class-kc.php:1297
+msgid "Events Block"
+msgstr ""
+
+#: includes/class-kc.php:1298
+msgid ""
+"Display an extremely impressive events blocks with many beautiful styles."
+msgstr ""
+
+#: includes/class-kc.php:1309 includes/metabox-options/events.php:573
+msgid "Block 1 - List"
+msgstr ""
+
+#: includes/class-kc.php:1310
+msgid "Block 2 - Grid"
+msgstr ""
+
+#: includes/class-kc.php:1316
+msgid "Date Divider"
+msgstr ""
+
+#: includes/class-kc.php:1320
+msgid "Display date between events."
+msgstr ""
+
+#: includes/class-kc.php:1333 includes/class-kc.php:1863
+msgid "5 Items"
+msgstr ""
+
+#: includes/class-kc.php:1461
+msgid "Events Carousel"
+msgstr ""
+
+#: includes/class-kc.php:1462
+msgid "Display events in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:1468 includes/class-kc.php:1633
+#: includes/class-kc.php:2465
+msgid "Post Module"
+msgstr ""
+
+#: includes/class-kc.php:1626
+msgid "Releases Carousel"
+msgstr ""
+
+#: includes/class-kc.php:1627
+msgid "Display music in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:1779
+msgid "Single Release"
+msgstr ""
+
+#: includes/class-kc.php:1780
+msgid "Display single release."
+msgstr ""
+
+#: includes/class-kc.php:1836
+msgid "Releases Block"
+msgstr ""
+
+#: includes/class-kc.php:1837
+msgid ""
+"Display an extremely impressive releases blocks with many beautiful styles."
+msgstr ""
+
+#: includes/class-kc.php:1979
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/class-kc.php:1986
+msgid "Select Slider"
+msgstr ""
+
+#: includes/class-kc.php:1991
+msgid ""
+"Select Revolution Slider. Note: Revolution Slider doesn't refresh on visual "
+"mode. Please save and refesh manually your page to see slider."
+msgstr ""
+
+#: includes/class-kc.php:2004
+msgid "Share Buttons"
+msgstr ""
+
+#: includes/class-kc.php:2005
+msgid "Display share buttons."
+msgstr ""
+
+#: includes/class-kc.php:2024
+msgid "Custom class for wrapper of the shortcode widget."
+msgstr ""
+
+#: includes/class-kc.php:2060
+msgid "Fullwidth Player"
+msgstr ""
+
+#: includes/class-kc.php:2061
+msgid "Display Fullwidth player."
+msgstr ""
+
+#: includes/class-kc.php:2067 includes/class-kc.php:2836
+#: includes/class-kc.php:2925
+msgid "Select Tracklist"
+msgstr ""
+
+#: includes/class-kc.php:2072 includes/class-kc.php:2841
+#: includes/class-kc.php:2930
+msgid ""
+"Select tracklist post. If there are no tracks available, then you can add a "
+"audio tracks using Tacks Manager menu on the left."
+msgstr ""
+
+#: includes/class-kc.php:2076 includes/class-kc.php:2845
+#: includes/class-kc.php:2934
+msgid "Tracks IDS"
+msgstr ""
+
+#: includes/class-kc.php:2080 includes/class-kc.php:2849
+#: includes/class-kc.php:2938
+msgid ""
+"Filter multiple tracks by ID. Enter the track IDs separated by | (ex: 333|18|"
+"643)."
+msgstr ""
+
+#: includes/class-kc.php:2084 includes/class-kc.php:2853
+#: includes/class-kc.php:2942 includes/metabox-options/post.php:369
+msgid "Fixed Height"
+msgstr ""
+
+#: includes/class-kc.php:2093 includes/class-kc.php:2862
+#: includes/class-kc.php:2951 includes/metabox-options/post.php:376
+msgid ""
+"Set fixed height (px) of tracklist. If the value is set at \"0\" then the "
+"height of the list is set to automatic and the scroll on right is invisible."
+msgstr ""
+
+#: includes/class-kc.php:2097 includes/class-kc.php:2964
+msgid "Show Tracklist"
+msgstr ""
+
+#: includes/class-kc.php:2101 includes/class-kc.php:2968
+msgid "Show tracklist on startup."
+msgstr ""
+
+#: includes/class-kc.php:2128
+msgid "Video Cover"
+msgstr ""
+
+#: includes/class-kc.php:2129
+msgid "Display video with image cover."
+msgstr ""
+
+#: includes/class-kc.php:2135
+msgid "Video Source"
+msgstr ""
+
+#: includes/class-kc.php:2140
+msgid "YouTube"
+msgstr ""
+
+#: includes/class-kc.php:2141
+msgid "Vimeo"
+msgstr ""
+
+#: includes/class-kc.php:2143
+msgid "Choose source of video."
+msgstr ""
+
+#: includes/class-kc.php:2147
+msgid "Video link"
+msgstr ""
+
+#: includes/class-kc.php:2152
+msgid "Enter the Youtube or Vimeo URL."
+msgstr ""
+
+#: includes/class-kc.php:2187
+msgid "Single Navigation"
+msgstr ""
+
+#: includes/class-kc.php:2188
+msgid "Display post navigation."
+msgstr ""
+
+#: includes/class-kc.php:2235
+msgid "Details List"
+msgstr ""
+
+#: includes/class-kc.php:2236
+msgid "Display details list."
+msgstr ""
+
+#: includes/class-kc.php:2243
+msgid "Group Field"
+msgstr ""
+
+#: includes/class-kc.php:2247
+msgid "Add new detail"
+msgstr ""
+
+#: includes/class-kc.php:2250 includes/metabox-options/events.php:66
+#: includes/post-types/class-artists.php:132
+#: includes/post-types/class-events-manager.php:190
+#: includes/post-types/class-gallery.php:146
+#: includes/post-types/class-releases.php:132
+msgid "Date"
+msgstr ""
+
+#: includes/class-kc.php:2255
+msgid "Catalog"
+msgstr ""
+
+#: includes/class-kc.php:2263
+#: includes/metabox-fields/media_manager/media_manager_images.php:97
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:98
+#: includes/metabox-fields/media_manager/media_manager_slider.php:116
+#: includes/metabox-options/common.php:252
+#: includes/metabox-options/releases.php:855
+#: includes/metabox-options/releases.php:857
+#: includes/post-types/class-artists.php:131
+#: includes/post-types/class-events-manager.php:189
+#: includes/post-types/class-gallery.php:145
+#: includes/post-types/class-releases.php:131
+#: includes/scamp-player/class-scamp-player.php:117
+msgid "Title"
+msgstr ""
+
+#: includes/class-kc.php:2274 includes/class-kc.php:2296
+msgid "Text"
+msgstr ""
+
+#: includes/class-kc.php:2276
+msgid "Social Links"
+msgstr ""
+
+#: includes/class-kc.php:2277 includes/metabox-options/artists.php:655
+#: includes/metabox-options/artists.php:688
+#: includes/metabox-options/events.php:783
+#: includes/metabox-options/events.php:816
+#: includes/metabox-options/gallery.php:755
+#: includes/metabox-options/gallery.php:788
+#: includes/metabox-options/releases.php:723
+#: includes/metabox-options/releases.php:756
+msgid "Categories"
+msgstr ""
+
+#: includes/class-kc.php:2278
+msgid "Event Start Date"
+msgstr ""
+
+#: includes/class-kc.php:2279
+msgid "Event End Date"
+msgstr ""
+
+#: includes/class-kc.php:2280
+msgid "Event Time Start"
+msgstr ""
+
+#: includes/class-kc.php:2284
+msgid "Social Icons"
+msgstr ""
+
+#: includes/class-kc.php:2289
+msgid ""
+"Add social icons divided with linebreaks (Enter) e.g.: facebook|https://"
+"facebook.com"
+msgstr ""
+
+#: includes/class-kc.php:2314
+msgid "Open in New Window?"
+msgstr ""
+
+#: includes/class-kc.php:2325
+msgid "Display From"
+msgstr ""
+
+#: includes/class-kc.php:2330
+msgid "Blog [ Categories ]"
+msgstr ""
+
+#: includes/class-kc.php:2331
+msgid "Releases [ Filter 1 ]"
+msgstr ""
+
+#: includes/class-kc.php:2332
+msgid "Releases [ Filter 2 ]"
+msgstr ""
+
+#: includes/class-kc.php:2333
+msgid "Events [ Filter 1 ]"
+msgstr ""
+
+#: includes/class-kc.php:2334
+msgid "Events [ Filter 2 ]"
+msgstr ""
+
+#: includes/class-kc.php:2335
+msgid "Artists [ Filter 1 ]"
+msgstr ""
+
+#: includes/class-kc.php:2336
+msgid "Artists [ Filter 2 ]"
+msgstr ""
+
+#: includes/class-kc.php:2386
+#: includes/widgets/class-widget-recent-posts.php:114
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/class-kc.php:2387
+msgid "Display recent posts"
+msgstr ""
+
+#: includes/class-kc.php:2393
+msgid "Number Posts to Show"
+msgstr ""
+
+#: includes/class-kc.php:2402
+msgid "Number posts to show."
+msgstr ""
+
+#: includes/class-kc.php:2406
+msgid "Show Description"
+msgstr ""
+
+#: includes/class-kc.php:2410
+msgid "Show post description (excerpt)"
+msgstr ""
+
+#: includes/class-kc.php:2414
+msgid "Show Thumbnails"
+msgstr ""
+
+#: includes/class-kc.php:2418
+msgid "Show post thumbnails"
+msgstr ""
+
+#: includes/class-kc.php:2422 includes/metabox-options/post.php:351
+msgid "Style"
+msgstr ""
+
+#: includes/class-kc.php:2427
+msgid "Style 1 (titles with thumbnails)"
+msgstr ""
+
+#: includes/class-kc.php:2428
+msgid "Style 2 (simple date with title)"
+msgstr ""
+
+#: includes/class-kc.php:2458
+msgid "Posts Carousel"
+msgstr ""
+
+#: includes/class-kc.php:2459 includes/class-kc.php:2613
+msgid "Display posts in a nice sliding manner."
+msgstr ""
+
+#: includes/class-kc.php:2471
+msgid "Module 2"
+msgstr ""
+
+#: includes/class-kc.php:2612 includes/super-menu-walker.php:137
+msgid "Posts Slider"
+msgstr ""
+
+#: includes/class-kc.php:2645
+msgid "The slider automatically plays when site loaded"
+msgstr ""
+
+#: includes/class-kc.php:2654
+msgid "Type image size full/large/medium or custom."
+msgstr ""
+
+#: includes/class-kc.php:2696
+msgid "Slide CSS"
+msgstr ""
+
+#: includes/class-kc.php:2707
+msgid "Posts Block"
+msgstr ""
+
+#: includes/class-kc.php:2708
+msgid ""
+"Display an extremely impressive recent posts with many beautiful styles."
+msgstr ""
+
+#: includes/class-kc.php:2720 includes/metabox-options/artists.php:470
+#: includes/metabox-options/blog.php:261
+#: includes/metabox-options/events.php:578
+#: includes/metabox-options/gallery.php:76
+#: includes/metabox-options/gallery.php:573
+#: includes/metabox-options/releases.php:537
+msgid "Block 2"
+msgstr ""
+
+#: includes/class-kc.php:2721 includes/metabox-options/artists.php:475
+#: includes/metabox-options/blog.php:266
+#: includes/metabox-options/events.php:583
+#: includes/metabox-options/gallery.php:81
+#: includes/metabox-options/gallery.php:578
+#: includes/metabox-options/releases.php:542
+msgid "Block 3"
+msgstr ""
+
+#: includes/class-kc.php:2727
+msgid "Articles on Row"
+msgstr ""
+
+#: includes/class-kc.php:2732
+msgid "1 Article"
+msgstr ""
+
+#: includes/class-kc.php:2733
+msgid "2 Articles"
+msgstr ""
+
+#: includes/class-kc.php:2734
+msgid "3 Articles"
+msgstr ""
+
+#: includes/class-kc.php:2735
+msgid "4 Articles"
+msgstr ""
+
+#: includes/class-kc.php:2736
+msgid "5 Articles"
+msgstr ""
+
+#: includes/class-kc.php:2738
+msgid "Select number of articles per row."
+msgstr ""
+
+#: includes/class-kc.php:2752 includes/class-kc.php:2768
+msgid "From Block Settings"
+msgstr ""
+
+#: includes/class-kc.php:2755
+msgid ""
+"Select image size. By default, the image size is set for the selected "
+"module. Note: In some blocks it is not possible to change image size because "
+"it is set permanently."
+msgstr ""
+
+#: includes/class-kc.php:2763
+msgid "Module Size"
+msgstr ""
+
+#: includes/class-kc.php:2771
+msgid ""
+"Select module size. Note: In some blocks it is not possible to change the "
+"size because it is set permanently."
+msgstr ""
+
+#: includes/class-kc.php:2829 includes/metabox-options/post.php:356
+msgid "Tracklist"
+msgstr ""
+
+#: includes/class-kc.php:2830 includes/class-kc.php:2919
+msgid "Display tracklist."
+msgstr ""
+
+#: includes/class-kc.php:2866 includes/metabox-options/post.php:385
+msgid "Show Cover Images"
+msgstr ""
+
+#: includes/class-kc.php:2870
+msgid "Show or hide tracks cover images in tracklist."
+msgstr ""
+
+#: includes/class-kc.php:2874
+msgid "Big Covers"
+msgstr ""
+
+#: includes/class-kc.php:2878
+msgid "Show big covers images in tracklist."
+msgstr ""
+
+#: includes/class-kc.php:2882 includes/metabox-options/post.php:421
+msgid "Display Limit"
+msgstr ""
+
+#: includes/class-kc.php:2891 includes/metabox-options/post.php:428
+msgid ""
+"How many tracks will be visibile. If the value is set at \"0\" then all "
+"tracks will be shown."
+msgstr ""
+
+#: includes/class-kc.php:2918 includes/metabox-options/post.php:357
+msgid "Album Player"
+msgstr ""
+
+#: includes/class-kc.php:2986 includes/widgets/class-widget-instafeed.php:138
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/class-kc.php:2987 includes/widgets/class-widget-instafeed.php:25
+msgid "Display recent images from Instagram account."
+msgstr ""
+
+#: includes/class-kc.php:2999 includes/widgets/class-widget-instafeed.php:182
+msgid ""
+"Enter the ID as it appears after the instagram url (ex. http://www.instagram."
+"com/ID)"
+msgstr ""
+
+#: includes/class-kc.php:3003 includes/widgets/class-widget-instafeed.php:196
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-kc.php:3007 includes/widgets/class-widget-instafeed.php:200
+msgid "Enter custom profile name instead of ID name."
+msgstr ""
+
+#: includes/class-kc.php:3011
+msgid "Access token"
+msgstr ""
+
+#: includes/class-kc.php:3015 includes/widgets/class-widget-instafeed.php:191
+msgid "You can get the Access token at http://instagram.pixelunion.net/"
+msgstr ""
+
+#: includes/class-kc.php:3018
+msgid "Display Header"
+msgstr ""
+
+#: includes/class-kc.php:3022
+msgid "Display or hide the Instagram header section."
+msgstr ""
+
+#: includes/class-kc.php:3026 includes/widgets/class-widget-instafeed.php:214
+msgid "Display Follow Overlay"
+msgstr ""
+
+#: includes/class-kc.php:3030 includes/widgets/class-widget-instafeed.php:218
+msgid "Display or hide the black overlay with profile link."
+msgstr ""
+
+#: includes/class-kc.php:3034
+msgid "Images Per Row"
+msgstr ""
+
+#: includes/class-kc.php:3043 includes/class-kc.php:3056
+msgid "Set the number of images displayed on each row (default is 3)."
+msgstr ""
+
+#: includes/class-kc.php:3047
+msgid "Number of Rows"
+msgstr ""
+
+#: includes/class-kc.php:3060
+msgid "Image Gap"
+msgstr ""
+
+#: includes/class-kc.php:3065
+msgid "No Gap"
+msgstr ""
+
+#: includes/class-kc.php:3066
+msgid "2px"
+msgstr ""
+
+#: includes/class-kc.php:3068 includes/widgets/class-widget-instafeed.php:255
+msgid "Set a gap between images (default: No gap)"
+msgstr ""
+
+#: includes/class-kc.php:3072
+msgid "Size"
+msgstr ""
+
+#: includes/class-kc.php:3077
+msgid "Small Widget"
+msgstr ""
+
+#: includes/class-kc.php:3078
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/class-kc.php:3080
+msgid "Set module size."
+msgstr ""
+
+#: includes/class-kc.php:3087
+msgid "Request Timeout"
+msgstr ""
+
+#: includes/class-kc.php:3096
+msgid "Timeout in minutes for the instagram API request."
+msgstr ""
+
+#: includes/class-kc.php:3100
+msgid "Cache Time"
+msgstr ""
+
+#: includes/class-kc.php:3109
+msgid ""
+"Time in minutes that data is stored in the database before re-downloading."
+msgstr ""
+
+#: includes/class-kc.php:3153
+msgid "Advertisement"
+msgstr ""
+
+#: includes/class-kc.php:3154
+msgid "Display advertisement."
+msgstr ""
+
+#: includes/class-kc.php:3161 includes/widgets/class-widget-ad.php:141
+msgid "Display AD Title"
+msgstr ""
+
+#: includes/class-kc.php:3165 includes/widgets/class-widget-ad.php:145
+msgid ""
+"Display small title by default is: - Advertisement -. Note: Text can be "
+"replaced by Translate plugin like Loco Translate."
+msgstr ""
+
+#: includes/class-kc.php:3169 includes/widgets/class-widget-ad.php:150
+msgid "Use adspot from:"
+msgstr ""
+
+#: includes/class-kc.php:3174
+#: includes/importer/class-wordpress-importer.php:326
+msgid "- Select -"
+msgstr ""
+
+#: includes/class-kc.php:3176
+msgid "Header"
+msgstr ""
+
+#: includes/class-kc.php:3178
+msgid "Article Top"
+msgstr ""
+
+#: includes/class-kc.php:3179
+msgid "Article Bottom"
+msgstr ""
+
+#: includes/class-kc.php:3180
+msgid "Tracklit Inline"
+msgstr ""
+
+#: includes/class-kc.php:3181
+msgid "Custom 1"
+msgstr ""
+
+#: includes/class-kc.php:3182
+msgid "Custom 2"
+msgstr ""
+
+#: includes/class-kc.php:3183
+msgid "Custom 3"
+msgstr ""
+
+#: includes/class-kc.php:3185
+msgid "Choose the adspot from list."
+msgstr ""
+
+#: includes/class-kc.php:3246 includes/class-kc.php:3338
+#: includes/class-kc.php:3463 includes/class-kc.php:3725
+#: includes/metabox-options/artists.php:585
+#: includes/metabox-options/blog.php:329
+#: includes/metabox-options/gallery.php:687
+#: includes/metabox-options/releases.php:652
+msgid "Sort Order"
+msgstr ""
+
+#: includes/class-kc.php:3251 includes/class-kc.php:3344
+#: includes/class-kc.php:3469 includes/class-kc.php:3730
+#: includes/metabox-options/artists.php:592
+#: includes/metabox-options/blog.php:335
+#: includes/metabox-options/gallery.php:694
+#: includes/metabox-options/releases.php:659
+msgid "Latest (By date)"
+msgstr ""
+
+#: includes/class-kc.php:3252 includes/class-kc.php:3345
+#: includes/class-kc.php:3470 includes/class-kc.php:3731
+msgid "Alphabetical A - Z"
+msgstr ""
+
+#: includes/class-kc.php:3253 includes/class-kc.php:3346
+#: includes/class-kc.php:3471 includes/class-kc.php:3732
+#: includes/metabox-options/artists.php:594
+#: includes/metabox-options/blog.php:337
+#: includes/metabox-options/gallery.php:696
+#: includes/metabox-options/releases.php:661
+msgid "Random Posts"
+msgstr ""
+
+#: includes/class-kc.php:3254 includes/class-kc.php:3347
+#: includes/class-kc.php:3472 includes/class-kc.php:3733
+#: includes/metabox-options/artists.php:595
+#: includes/metabox-options/blog.php:338
+#: includes/metabox-options/gallery.php:697
+#: includes/metabox-options/releases.php:662
+msgid "Random Posts Today"
+msgstr ""
+
+#: includes/class-kc.php:3255 includes/class-kc.php:3348
+#: includes/class-kc.php:3473 includes/class-kc.php:3734
+#: includes/metabox-options/artists.php:596
+#: includes/metabox-options/blog.php:339
+#: includes/metabox-options/gallery.php:698
+#: includes/metabox-options/releases.php:663
+msgid "Random Posts From Last 7 Days"
+msgstr ""
+
+#: includes/class-kc.php:3256 includes/class-kc.php:3349
+#: includes/class-kc.php:3474 includes/class-kc.php:3735
+#: includes/metabox-options/artists.php:597
+#: includes/metabox-options/blog.php:340
+#: includes/metabox-options/gallery.php:699
+#: includes/metabox-options/releases.php:664
+msgid "Most Commented"
+msgstr ""
+
+#: includes/class-kc.php:3257 includes/metabox-options/blog.php:341
+msgid "Highest rated (reviews)"
+msgstr ""
+
+#: includes/class-kc.php:3260 includes/class-kc.php:3352
+#: includes/class-kc.php:3477 includes/class-kc.php:3738
+#: includes/metabox-options/artists.php:600
+#: includes/metabox-options/blog.php:344
+#: includes/metabox-options/gallery.php:702
+#: includes/metabox-options/releases.php:667
+msgid "How to sort the posts."
+msgstr ""
+
+#: includes/class-kc.php:3263
+msgid "Category"
+msgstr ""
+
+#: includes/class-kc.php:3268 includes/class-kc.php:3401
+#: includes/class-kc.php:3427 includes/class-kc.php:3526
+#: includes/class-kc.php:3551 includes/class-kc.php:3664
+#: includes/class-kc.php:3689 includes/class-kc.php:3787
+#: includes/class-kc.php:3812
+msgid "Filter multiple categories."
+msgstr ""
+
+#: includes/class-kc.php:3271 includes/metabox-options/blog.php:368
+msgid "Category Slug"
+msgstr ""
+
+#: includes/class-kc.php:3275 includes/class-kc.php:3408
+#: includes/class-kc.php:3434 includes/class-kc.php:3533
+#: includes/class-kc.php:3558 includes/class-kc.php:3671
+#: includes/class-kc.php:3696 includes/class-kc.php:3794
+#: includes/class-kc.php:3819 includes/metabox-options/blog.php:374
+msgid ""
+"Filter multiple categories by category slug name separated by commas (ex: "
+"news,interviews,reviews). To exclude posts add them with \"-\" (ex: -news,-"
+"interviews,-reviews)"
+msgstr ""
+
+#: includes/class-kc.php:3278 includes/class-kc.php:3355
+#: includes/class-kc.php:3480 includes/class-kc.php:3587
+#: includes/class-kc.php:3741 includes/metabox-options/artists.php:605
+#: includes/metabox-options/blog.php:347
+#: includes/metabox-options/events.php:697
+#: includes/metabox-options/gallery.php:705
+#: includes/metabox-options/releases.php:672
+msgid "Post ID"
+msgstr ""
+
+#: includes/class-kc.php:3282 includes/class-kc.php:3359
+#: includes/class-kc.php:3484 includes/class-kc.php:3591
+#: includes/class-kc.php:3745 includes/metabox-options/artists.php:611
+#: includes/metabox-options/blog.php:353
+#: includes/metabox-options/events.php:703
+#: includes/metabox-options/gallery.php:711
+#: includes/metabox-options/releases.php:678
+msgid ""
+"Filter multiple posts by ID. Enter the post IDs separated by commas (ex: "
+"333,18,643). To exclude posts add them with \"-\" (ex: -30,-486,-12)"
+msgstr ""
+
+#: includes/class-kc.php:3285 includes/metabox-options/blog.php:377
+msgid "Tag Slug"
+msgstr ""
+
+#: includes/class-kc.php:3289 includes/metabox-options/blog.php:383
+msgid ""
+"Filter tags by slugs. Enter the tag slugs separated by commas (ex: tag1,tag2,"
+"tag3)"
+msgstr ""
+
+#: includes/class-kc.php:3292 includes/metabox-options/blog.php:386
+msgid "Author ID"
+msgstr ""
+
+#: includes/class-kc.php:3296 includes/metabox-options/blog.php:392
+msgid ""
+"Filter multiple authors by ID. Enter the author IDs separated by commas (ex: "
+"32,11,899)"
+msgstr ""
+
+#: includes/class-kc.php:3299 includes/class-kc.php:3362
+#: includes/class-kc.php:3487 includes/class-kc.php:3598
+#: includes/class-kc.php:3748 includes/metabox-options/artists.php:616
+#: includes/metabox-options/blog.php:395
+#: includes/metabox-options/events.php:712
+#: includes/metabox-options/gallery.php:714
+#: includes/metabox-options/releases.php:683
+msgid "Offset Posts"
+msgstr ""
+
+#: includes/class-kc.php:3310 includes/class-kc.php:3373
+#: includes/class-kc.php:3498 includes/class-kc.php:3609
+#: includes/class-kc.php:3759 includes/metabox-options/artists.php:626
+#: includes/metabox-options/blog.php:405
+#: includes/metabox-options/events.php:722
+#: includes/metabox-options/gallery.php:724
+#: includes/metabox-options/releases.php:693
+msgid ""
+"Start the count with an offset. If you have a block that shows 10 posts "
+"before this one, you can make this one start from the 11'th post (by using "
+"offset 10)"
+msgstr ""
+
+#: includes/class-kc.php:3343 includes/class-kc.php:3468
+#: includes/metabox-options/artists.php:591
+#: includes/metabox-options/gallery.php:693
+#: includes/metabox-options/releases.php:658
+msgid "Drag and Drop"
+msgstr ""
+
+#: includes/class-kc.php:3378 includes/class-kc.php:3503
+#: includes/class-kc.php:3618 includes/class-kc.php:3764
+#: includes/metabox-options/artists.php:634
+#: includes/metabox-options/events.php:735
+#: includes/metabox-options/gallery.php:733
+#: includes/metabox-options/releases.php:702
+msgid "Filters Order"
+msgstr ""
+
+#: includes/class-kc.php:3383 includes/class-kc.php:3508
+#: includes/class-kc.php:3623 includes/class-kc.php:3769
+#: includes/metabox-options/artists.php:640
+#: includes/metabox-options/gallery.php:739
+#: includes/metabox-options/releases.php:708
+msgid ""
+"Enter the filters order number separated by commas e.g.: 2,1 (Display only "
+"two filters, the second will be displayed first)"
+msgstr ""
+
+#: includes/class-kc.php:3388 includes/class-kc.php:3513
+#: includes/class-kc.php:3628 includes/class-kc.php:3774
+msgid "Filter 1 - Name"
+msgstr ""
+
+#: includes/class-kc.php:3391 includes/class-kc.php:3417
+#: includes/class-kc.php:3516 includes/class-kc.php:3541
+#: includes/class-kc.php:3631 includes/class-kc.php:3654
+#: includes/class-kc.php:3679 includes/class-kc.php:3777
+#: includes/class-kc.php:3802 includes/metabox-options/artists.php:650
+#: includes/metabox-options/events.php:778
+#: includes/metabox-options/gallery.php:749
+#: includes/metabox-options/releases.php:718
+msgid "All"
+msgstr ""
+
+#: includes/class-kc.php:3393 includes/class-kc.php:3419
+#: includes/class-kc.php:3518 includes/class-kc.php:3543
+#: includes/class-kc.php:3633 includes/class-kc.php:3656
+#: includes/class-kc.php:3681 includes/class-kc.php:3779
+#: includes/class-kc.php:3804 includes/metabox-options/artists.php:652
+#: includes/metabox-options/artists.php:685
+#: includes/metabox-options/events.php:780
+#: includes/metabox-options/events.php:813
+#: includes/metabox-options/gallery.php:751
+#: includes/metabox-options/gallery.php:785
+#: includes/metabox-options/releases.php:720
+#: includes/metabox-options/releases.php:753
+msgid "Filter name."
+msgstr ""
+
+#: includes/class-kc.php:3396 includes/class-kc.php:3521
+#: includes/class-kc.php:3782
+msgid "Filter 1 - IDS"
+msgstr ""
+
+#: includes/class-kc.php:3404 includes/class-kc.php:3529
+#: includes/class-kc.php:3790
+msgid "Filter 1 - Slug"
+msgstr ""
+
+#: includes/class-kc.php:3414 includes/class-kc.php:3538
+#: includes/class-kc.php:3651 includes/class-kc.php:3799
+msgid "Filter 2 - Name"
+msgstr ""
+
+#: includes/class-kc.php:3422 includes/class-kc.php:3546
+#: includes/class-kc.php:3659 includes/class-kc.php:3807
+msgid "Filter 2 - IDS"
+msgstr ""
+
+#: includes/class-kc.php:3430 includes/class-kc.php:3554
+#: includes/class-kc.php:3667 includes/class-kc.php:3815
+msgid "Filter 2 - Slug"
+msgstr ""
+
+#: includes/class-kc.php:3636
+msgid "Filter 1 - Type"
+msgstr ""
+
+#: includes/class-kc.php:3641 includes/metabox-options/events.php:762
+#: includes/post-types/class-events-manager.php:307
+msgid "Future"
+msgstr ""
+
+#: includes/class-kc.php:3642 includes/metabox-options/events.php:763
+#: includes/post-types/class-events-manager.php:309
+msgid "Past"
+msgstr ""
+
+#: includes/class-kc.php:3643 includes/metabox-options/events.php:764
+msgid "Future + Past"
+msgstr ""
+
+#: includes/class-kc.php:3646 includes/metabox-options/events.php:767
+msgid "Select event type."
+msgstr ""
+
+#: includes/class-kc.php:3676
+msgid "Filter 3 - Name"
+msgstr ""
+
+#: includes/class-kc.php:3684
+msgid "Filter 3 - IDS"
+msgstr ""
+
+#: includes/class-kc.php:3692
+msgid "Filter 3 - Slug"
+msgstr ""
+
+#: includes/class-kc.php:3948
+msgid "Default (Selected in Customizer)"
+msgstr ""
+
+#: includes/class-kc.php:4017 includes/class-register-metaboxes.php:87
+#: includes/class-register-metaboxes.php:116
+msgid "Select slider..."
+msgstr ""
+
+#: includes/class-kc.php:4070
+msgid "Select..."
+msgstr ""
+
+#: includes/class-kc.php:4179 includes/class-register-metaboxes.php:158
+#: includes/metabox-fields/media_manager/media_manager_slider.php:281
+msgid "Select tracks..."
+msgstr ""
+
+#: includes/class-twitter.php:67
+msgid "ERROR: Missing API Key."
+msgstr ""
+
+#: includes/class-twitter.php:68
+msgid "ERROR: Missing API Secret."
+msgstr ""
+
+#: includes/class-twitter.php:69
+msgid "ERROR: Missing Twitter Feed User Name."
+msgstr ""
+
+#: includes/class-twitter.php:135 includes/class-twitter.php:184
+msgid "ERROR: Username not exists or Twitter API error."
+msgstr ""
+
+#: includes/class-twitter.php:176
+msgid "ago"
+msgstr ""
+
+#: includes/functions-toolkit.php:34
+msgid "Share"
+msgstr ""
+
+#: includes/importer/class-importer-data.php:159
+msgid ""
+"KingComposer - The most professional WordPress page builder plugin, it's "
+"weight and high efficiency to help you build any layout design quickly."
+msgstr ""
+
+#: includes/importer/class-importer-data.php:163
+msgid "Kirki - Theme customization options."
+msgstr ""
+
+#: includes/importer/class-importer-data.php:167
+msgid ""
+"Epron Toolkit - This is a complimentary plugin for the Rascals WordPress "
+"themes. You can use it to create, manage and update Custom Posts Types, "
+"Widgets, Modules, Customizer Options."
+msgstr ""
+
+#: includes/importer/class-importer.php:236
+msgid ""
+"Before you begin, you need to install and activate the following plugins"
+msgstr ""
+
+#: includes/importer/class-importer.php:236
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/importer/class-importer.php:268
+msgid "Demos"
+msgstr ""
+
+#: includes/importer/class-importer.php:271
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. Before running the "
+"importer, make sure that you have installed and activated the required and "
+"recommended plugins. You will see a message at the bottom of this page if "
+"you have not yet done so. When you import the data following things will "
+"happen:"
+msgstr ""
+
+#: includes/importer/class-importer.php:275
+msgid ""
+"All widgets located in primary sidebar will be removed, please move them to "
+"another sidebar."
+msgstr ""
+
+#: includes/importer/class-importer.php:276
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: includes/importer/class-importer.php:277
+msgid "No WordPress settings will be modified."
+msgstr ""
+
+#: includes/importer/class-importer.php:278
+msgid "Posts, pages, some images, some widgets and menus will get imported."
+msgstr ""
+
+#: includes/importer/class-importer.php:279
+msgid "Images will be downloaded from our server."
+msgstr ""
+
+#: includes/importer/class-importer.php:280
+msgid "Please click import only once and wait."
+msgstr ""
+
+#: includes/importer/class-importer.php:281
+msgid ""
+"Be patient and wait for the import process to complete. It can take up to "
+"5-7 minutes."
+msgstr ""
+
+#: includes/importer/class-importer.php:286
+msgid ""
+"I agree that all media elements of demo content like images, videos and mp3 "
+"files will be downloaded from the third-party server (rascalsthemes.com)."
+msgstr ""
+
+#: includes/importer/class-importer.php:310
+msgid "Import Again"
+msgstr ""
+
+#: includes/importer/class-importer.php:313
+msgid "Import"
+msgstr ""
+
+#: includes/importer/class-importer.php:338
+msgid ""
+"Please be patient and wait for the import process to complete. It can take "
+"up to 5-7 minutes."
+msgstr ""
+
+#: includes/importer/class-importer.php:351
+msgid "Well Done! Demo content has been imported."
+msgstr ""
+
+#: includes/importer/class-importer.php:648
+msgid ""
+"The XML file containing the dummy content is not available or could not be "
+"read .. You might want to try to set the file permission to chmod 755. If "
+"this doesn't work please use the Wordpress importer and import the XML file "
+"(should be located in your download .zip: Sample Content folder) manually."
+msgstr ""
+
+#: includes/importer/class-importer.php:688
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/importer/class-importer.php:746
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: includes/importer/class-importer.php:819
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/importer/class-importer.php:841
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/importer/class-importer.php:864
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/importer/class-importer.php:913
+msgid "Imported"
+msgstr ""
+
+#: includes/importer/class-importer.php:916
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/importer/class-importer.php:923
+msgid "No Title"
+msgstr ""
+
+#: includes/importer/class-parsers.php:51
+#: includes/importer/class-parsers.php:81
+#: includes/importer/class-parsers.php:89
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/importer/class-parsers.php:52
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/importer/class-parsers.php:93
+#: includes/importer/class-parsers.php:98
+#: includes/importer/class-parsers.php:315
+#: includes/importer/class-parsers.php:511
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:126
+#: includes/importer/class-wordpress-importer.php:135
+#: includes/importer/class-wordpress-importer.php:186
+#: includes/importer/class-wordpress-importer.php:190
+#: includes/importer/class-wordpress-importer.php:199
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:127
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:170
+msgid "All done."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:170
+msgid "Have fun!"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:171
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:191
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:207
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:232
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:258
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:259
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:261
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:271
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:274
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:278
+msgid "Submit"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:291
+msgid "Import author:"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:303
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:306
+msgid "as a new user:"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:316
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:318
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:380
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:432
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:477
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:533
+#: includes/importer/class-wordpress-importer.php:759
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:626
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:663
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:725
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:899
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:906
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:985
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1024
+msgid "Could not create temporary file."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1043
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1059
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1071
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1078
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1083
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1089
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1121
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1136
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1248
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1255
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1270
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/importer/class-wordpress-importer.php:1271
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/kc/templates/kc_album_player.php:89
+#: includes/kc/templates/kc_album_player.php:91
+#: includes/kc/templates/kc_album_player.php:144
+#: includes/kc/templates/kc_fw_player.php:93
+#: includes/kc/templates/kc_fw_player.php:95
+#: includes/kc/templates/kc_fw_player.php:149
+#: includes/kc/templates/kc_tracklist.php:98
+msgid "Track cover"
+msgstr ""
+
+#: includes/kc/templates/kc_artists_block.php:161
+#: includes/kc/templates/kc_events_block.php:161
+#: includes/kc/templates/kc_gallery_block.php:159
+#: includes/kc/templates/kc_releases_block.php:156
+msgid "Load More"
+msgstr ""
+
+#: includes/kc/templates/kc_artists_block.php:170
+#: includes/kc/templates/kc_events_block.php:170
+#: includes/kc/templates/kc_gallery_block.php:168
+#: includes/kc/templates/kc_release_single.php:126
+#: includes/kc/templates/kc_releases_block.php:165
+msgid "Warning: There are no items to display this module."
+msgstr ""
+
+#: includes/kc/templates/kc_artists_carousel.php:138
+#: includes/kc/templates/kc_events_carousel.php:142
+#: includes/kc/templates/kc_gallery_carousel.php:139
+#: includes/kc/templates/kc_gallery_images_carousel.php:147
+#: includes/kc/templates/kc_posts_carousel.php:144
+#: includes/kc/templates/kc_posts_slider.php:138
+#: includes/kc/templates/kc_releases_carousel.php:135
+msgid "Carousel Post: No posts found"
+msgstr ""
+
+#: includes/kc/templates/kc_event_countdown.php:81
+#: includes/kc/templates/kc_event_countdown.php:107
+msgid "Days"
+msgstr ""
+
+#: includes/kc/templates/kc_event_countdown.php:82
+#: includes/kc/templates/kc_event_countdown.php:108
+msgid "Hours"
+msgstr ""
+
+#: includes/kc/templates/kc_event_countdown.php:83
+#: includes/kc/templates/kc_event_countdown.php:109
+msgid "Minutes"
+msgstr ""
+
+#: includes/kc/templates/kc_event_countdown.php:84
+#: includes/kc/templates/kc_event_countdown.php:110
+msgid "Seconds"
+msgstr ""
+
+#: includes/kc/templates/kc_event_countdown.php:96
+#: includes/kc/templates/kc_event_countdown.php:101
+#: includes/kc/templates/kc_event_countdown.php:103
+msgid "View Post Thumb"
+msgstr ""
+
+#: includes/kc/templates/kc_gallery_images.php:164
+#: includes/kc/templates/kc_gallery_images.php:170
+#: includes/kc/templates/kc_gallery_images_carousel.php:161
+msgid ""
+"Warning: There are no items to display this module. Please select gallery "
+"album."
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:43
+msgid "Render failed - no data is received, please check the ID"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:65
+msgid "Something went wrong with Instagram server"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:87
+#: includes/kc/templates/kc_instafeed.php:102
+msgid "Error decoding the instagram json"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:131
+msgid "Instagram profile image"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:144
+msgid "Followers"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:146
+msgid "Follow"
+msgstr ""
+
+#: includes/kc/templates/kc_instafeed.php:159
+msgid "Instagram image"
+msgstr ""
+
+#: includes/kc/templates/kc_posts_block.php:116
+msgid "Warning: There are no posts to display this module."
+msgstr ""
+
+#: includes/kc/templates/kc_single_image.php:136
+#: includes/kc/templates/kc_single_image.php:197
+msgid "Single Image"
+msgstr ""
+
+#: includes/kc/templates/kc_single_nav.php:134
+msgid "You can not use [nav] in this page."
+msgstr ""
+
+#: includes/kc/templates/kc_single_nav.php:139
+msgid "Demo"
+msgstr ""
+
+#: includes/metabox-fields/add_image/add_image.php:116
+#: includes/metabox-fields/media_manager/media_manager_audio.php:183
+#: includes/metabox-fields/media_manager/media_manager_audio.php:241
+msgid "Media libary"
+msgstr ""
+
+#: includes/metabox-fields/add_image/add_image.php:117
+#: includes/metabox-fields/media_manager/media_manager_audio.php:184
+#: includes/metabox-fields/media_manager/media_manager_audio.php:242
+msgid "External link"
+msgstr ""
+
+#: includes/metabox-fields/add_image/add_image.php:140
+#: includes/metabox-fields/bg_generator/bg_generator.php:154
+#: includes/metabox-fields/bg_generator/bg_generator.php:271
+#: includes/metabox-fields/media_manager/media_manager_audio.php:194
+#: includes/metabox-fields/media_manager/media_manager_audio.php:252
+msgid "Preview Image"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:131
+#: includes/metabox-fields/bg_generator/bg_generator.php:138
+msgid "Add Background"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:131
+#: includes/metabox-fields/bg_generator/bg_generator.php:169
+msgid "Edit Background"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:139
+#: includes/metabox-fields/bg_generator/bg_generator.php:170
+#: includes/metabox-fields/iframe_generator/iframe_generator.php:142
+msgid "Remove"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:163
+msgid ""
+"Set your background again, because current is not compatible with latest "
+"framework version."
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:261
+msgid "Background Image"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:299
+msgid "Background Position"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:326
+msgid ""
+"The background-position property sets the starting position of a background "
+"image. The first value is the horizontal position and the second value is "
+"the vertical. The top left corner is 0 0."
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:338
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:360
+msgid ""
+"The background-repeat property sets if/how a background image will be "
+"repeated."
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:373
+#: includes/metabox-fields/bg_generator/bg_generator.php:406
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:393
+msgid ""
+"The background-attachment property sets whether a background image is fixed "
+"or scrolls with the rest of the page."
+msgstr ""
+
+#: includes/metabox-fields/bg_generator/bg_generator.php:427
+msgid ""
+"The background-size property specifies the size of the background images."
+msgstr ""
+
+#: includes/metabox-fields/easy_link/easy_link.php:144
+msgid "Open link in new window/tab: "
+msgstr ""
+
+#: includes/metabox-fields/easy_link/easy_link.php:146
+msgid "Insert Link"
+msgstr ""
+
+#: includes/metabox-fields/easy_link/easy_link.php:179
+#: includes/metabox-fields/media_manager/media_manager.php:722
+#: includes/post-types/class-artists.php:72
+#: includes/post-types/class-gallery.php:88
+#: includes/post-types/class-releases.php:72
+#: includes/scamp-player/class-scamp-player.php:80
+msgid "Search"
+msgstr ""
+
+#: includes/metabox-fields/iframe_generator/iframe_generator.php:140
+msgid "Generate Iframe"
+msgstr ""
+
+#: includes/metabox-fields/iframe_generator/iframe_generator.php:143
+msgid "Error: Content does not contain the iframe."
+msgstr ""
+
+#: includes/metabox-fields/iframe_generator/iframe_generator.php:179
+msgid "Iframe Code"
+msgstr ""
+
+#: includes/metabox-fields/iframe_generator/iframe_generator.php:183
+msgid "Paste Iframe code here."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:165
+msgid "Select All"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:226
+msgid "Error: Image file doesn't exists."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:338
+msgid "Error: AJAX Transport"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:352
+msgid "Remove Selected Items"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:352
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:440
+msgid "Save"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:441
+msgid "Edit/Close"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:442
+msgid "Select"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:725
+msgid "Select All:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:735
+msgid "Load Next 30 Items"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager.php:830
+msgid "Error!"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:48
+#: includes/metabox-fields/media_manager/media_manager_images.php:43
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:43
+#: includes/metabox-fields/media_manager/media_manager_slider.php:53
+msgid "Same Window/Tab"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:49
+#: includes/metabox-fields/media_manager/media_manager_images.php:44
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:44
+#: includes/metabox-fields/media_manager/media_manager_slider.php:54
+msgid "New Window/Tab"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:70
+msgid "Custom title"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:76
+msgid "Track ID"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:80
+msgid "Track ID can be used to select tracks."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:89
+msgid "Track Title"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:93
+msgid "Enter track title."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:106
+msgid "Release/Track URL"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:110
+msgid ""
+"Paste here link to the MP3 file or link to Soundcloud track, list, favorite "
+"tracks, or paste direct link of music track from following services like: "
+"hearthis.at and click on appropriate button. Then the fields will be "
+"automatically filled in with the data taken from the selected site."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:111
+msgid "Get track data from following services:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:113
+msgid "hearthis.at"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:113
+msgid "Google Drive"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:117
+msgid "Please enter a valid link, or select another service.."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:118
+msgid "Link is already converted, please enter a new link."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:119
+msgid ""
+"Error! Data could not be retrieved. Please try later, service may now be "
+"disabled."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:120
+msgid "Done! Data has been downloaded successfully."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:133
+#: includes/metabox-options/releases.php:862
+msgid "Description"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:137
+msgid "Short description for the audio track e.g.: Artists names etc."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:148
+msgid "Track Buttons"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:152
+msgid ""
+"Add player buttons, sparated by enter. Button example:\n"
+"\t[player_button title=\"Download\" link=\"http://link_here\" target=\"_self"
+"\"]"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:164
+msgid "Cover Image"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:213
+msgid "Add image cover."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:225
+msgid "Waveform Image"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:271
+msgid ""
+"Add track waveform, best image is white or black PNG (depends on theme skin) "
+"with transparent background. Waveform can be generated on following site:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:282
+msgid "Volume"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_audio.php:286
+msgid "Set track volume (0-100)"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:72
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:73
+#: includes/metabox-fields/media_manager/media_manager_slider.php:91
+msgid "File name:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:73
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:74
+#: includes/metabox-fields/media_manager/media_manager_slider.php:92
+msgid "File type:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:74
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:75
+#: includes/metabox-fields/media_manager/media_manager_slider.php:93
+msgid "Upload date:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:77
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:78
+#: includes/metabox-fields/media_manager/media_manager_slider.php:96
+msgid "Dimensions:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:80
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:81
+#: includes/metabox-fields/media_manager/media_manager_slider.php:99
+msgid "Image URL:"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:81
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:82
+#: includes/metabox-fields/media_manager/media_manager_slider.php:100
+msgid "[IMAGE LINK]"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:101
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:102
+#: includes/metabox-fields/media_manager/media_manager_slider.php:120
+msgid "Image title."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:113
+msgid "Custom Link"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_images.php:117
+msgid "Add custom link to popup window."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:114
+#: includes/metabox-fields/media_manager/media_manager_slider.php:132
+msgid "Subtitle"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_simple_slider.php:118
+#: includes/metabox-fields/media_manager/media_manager_slider.php:136
+msgid "Image subtitle."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:148
+#: includes/metabox-options/common.php:265
+msgid "Video"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:152
+msgid ""
+"Paste the full URL (include http://) of your Vimeo or Youtube movie. Video "
+"will be shown instead of the image."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:164
+msgid "Image Type"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:179
+msgid "Select image type."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:179
+msgid "NOTE: Displayed only on Intro slider section."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:191
+msgid "Lightbox Link"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:195
+msgid ""
+"Paste the full URL (include http://) of your image you would like to use for "
+"jQuery lightbox pop-up effect."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:211
+msgid "Paste the full URL (include http://)."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:222
+msgid "Media Code"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:226
+msgid ""
+"Paste media embed code (iframe) of Soundcloud, Mixcloud or links to Youtube, "
+"Vimeo."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:239
+msgid "Show Music Player?"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:254
+msgid "Show music player."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:268
+msgid "Select Track(s)"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:306
+msgid "Select tracklist or single track."
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:318
+msgid "Track Number"
+msgstr ""
+
+#: includes/metabox-fields/media_manager/media_manager_slider.php:322
+msgid "Select track."
+msgstr ""
+
+#: includes/metabox-fields/select_tracks/select_tracks.php:94
+#: includes/metabox-fields/select_tracks/select_tracks.php:100
+msgid "Error: ID: Is not defined!"
+msgstr ""
+
+#: includes/metabox-fields/select_tracks/select_tracks.php:176
+#: includes/metabox-fields/select_tracks/select_tracks.php:215
+msgid "Edit original tracklist here."
+msgstr ""
+
+#: includes/metabox-fields/select_tracks/select_tracks.php:238
+msgid "Remove Track"
+msgstr ""
+
+#: includes/metabox-options/artists.php:32
+msgid "Artist Options"
+msgstr ""
+
+#: includes/metabox-options/artists.php:57
+#: includes/metabox-options/events.php:161
+#: includes/metabox-options/gallery.php:123
+#: includes/metabox-options/page.php:56 includes/metabox-options/post.php:57
+#: includes/metabox-options/releases.php:61
+msgid "Content"
+msgstr ""
+
+#: includes/metabox-options/artists.php:64
+#: includes/metabox-options/artists.php:295
+#: includes/metabox-options/blog.php:85 includes/metabox-options/events.php:168
+#: includes/metabox-options/events.php:400
+#: includes/metabox-options/gallery.php:130
+#: includes/metabox-options/gallery.php:398
+#: includes/metabox-options/page.php:63 includes/metabox-options/post.php:64
+#: includes/metabox-options/releases.php:68
+#: includes/metabox-options/releases.php:362
+msgid "Hero Layout"
+msgstr ""
+
+#: includes/metabox-options/artists.php:71
+#: includes/metabox-options/artists.php:302
+#: includes/metabox-options/blog.php:92 includes/metabox-options/events.php:175
+#: includes/metabox-options/events.php:407
+#: includes/metabox-options/gallery.php:137
+#: includes/metabox-options/gallery.php:405
+#: includes/metabox-options/page.php:70 includes/metabox-options/post.php:71
+#: includes/metabox-options/releases.php:75
+#: includes/metabox-options/releases.php:369
+msgid "Hero section with image background and title."
+msgstr ""
+
+#: includes/metabox-options/artists.php:76
+#: includes/metabox-options/events.php:180
+#: includes/metabox-options/gallery.php:142
+#: includes/metabox-options/page.php:75 includes/metabox-options/post.php:76
+#: includes/metabox-options/releases.php:80
+msgid "Hero section with custom background created via page builder"
+msgstr ""
+
+#: includes/metabox-options/artists.php:81
+#: includes/metabox-options/artists.php:307
+#: includes/metabox-options/blog.php:97 includes/metabox-options/events.php:185
+#: includes/metabox-options/events.php:412
+#: includes/metabox-options/gallery.php:147
+#: includes/metabox-options/gallery.php:410
+#: includes/metabox-options/page.php:80 includes/metabox-options/post.php:81
+#: includes/metabox-options/releases.php:85
+#: includes/metabox-options/releases.php:374
+msgid "Simple header with solid background color"
+msgstr ""
+
+#: includes/metabox-options/artists.php:86
+#: includes/metabox-options/artists.php:312
+#: includes/metabox-options/blog.php:102
+#: includes/metabox-options/common.php:106
+#: includes/metabox-options/common.php:164
+#: includes/metabox-options/events.php:190
+#: includes/metabox-options/events.php:417
+#: includes/metabox-options/gallery.php:152
+#: includes/metabox-options/gallery.php:415
+#: includes/metabox-options/page.php:85 includes/metabox-options/post.php:86
+#: includes/metabox-options/releases.php:90
+#: includes/metabox-options/releases.php:379
+msgid ""
+"Choose the page layout. When is selected \"Page Builder\", it will switch to "
+"a full width layout (with no sidebar and title). If you want to use a "
+"sidebar with the page builder please use the Widget Sidebar block"
+msgstr ""
+
+#: includes/metabox-options/artists.php:91
+#: includes/metabox-options/artists.php:321
+#: includes/metabox-options/blog.php:111
+#: includes/metabox-options/events.php:195
+#: includes/metabox-options/events.php:426
+#: includes/metabox-options/gallery.php:157
+#: includes/metabox-options/gallery.php:424
+#: includes/metabox-options/page.php:90 includes/metabox-options/post.php:91
+#: includes/metabox-options/releases.php:95
+#: includes/metabox-options/releases.php:388
+msgid "Hero Image"
+msgstr ""
+
+#: includes/metabox-options/artists.php:95
+#: includes/metabox-options/artists.php:325
+#: includes/metabox-options/blog.php:115
+#: includes/metabox-options/events.php:199
+#: includes/metabox-options/events.php:430
+#: includes/metabox-options/gallery.php:161
+#: includes/metabox-options/gallery.php:428
+#: includes/metabox-options/page.php:94 includes/metabox-options/post.php:95
+#: includes/metabox-options/releases.php:99
+#: includes/metabox-options/releases.php:392
+msgid ""
+"Use image that are at least 1920 x 1080 pixels or higher for the best "
+"display."
+msgstr ""
+
+#: includes/metabox-options/artists.php:105
+#: includes/metabox-options/artists.php:336
+#: includes/metabox-options/blog.php:126
+#: includes/metabox-options/events.php:209
+#: includes/metabox-options/events.php:441
+#: includes/metabox-options/gallery.php:171
+#: includes/metabox-options/gallery.php:439
+#: includes/metabox-options/page.php:104 includes/metabox-options/post.php:106
+#: includes/metabox-options/releases.php:109
+#: includes/metabox-options/releases.php:403
+msgid "Hero Top Padding"
+msgstr ""
+
+#: includes/metabox-options/artists.php:113
+#: includes/metabox-options/artists.php:344
+#: includes/metabox-options/blog.php:134
+#: includes/metabox-options/events.php:217
+#: includes/metabox-options/events.php:449
+#: includes/metabox-options/gallery.php:179
+#: includes/metabox-options/gallery.php:447
+#: includes/metabox-options/page.php:112 includes/metabox-options/post.php:114
+#: includes/metabox-options/releases.php:117
+#: includes/metabox-options/releases.php:411
+msgid "Set top padding between title and top of the hero area."
+msgstr ""
+
+#: includes/metabox-options/artists.php:123
+#: includes/metabox-options/artists.php:354
+#: includes/metabox-options/blog.php:144
+#: includes/metabox-options/events.php:227
+#: includes/metabox-options/events.php:459
+#: includes/metabox-options/gallery.php:189
+#: includes/metabox-options/gallery.php:457
+#: includes/metabox-options/page.php:122 includes/metabox-options/post.php:124
+#: includes/metabox-options/releases.php:127
+#: includes/metabox-options/releases.php:421
+msgid "Hero Bottom Padding"
+msgstr ""
+
+#: includes/metabox-options/artists.php:131
+#: includes/metabox-options/artists.php:362
+#: includes/metabox-options/blog.php:152
+#: includes/metabox-options/events.php:235
+#: includes/metabox-options/events.php:467
+#: includes/metabox-options/gallery.php:197
+#: includes/metabox-options/gallery.php:465
+#: includes/metabox-options/page.php:130 includes/metabox-options/post.php:132
+#: includes/metabox-options/releases.php:135
+#: includes/metabox-options/releases.php:429
+msgid "Set bottom padding between title and bottom of the hero area."
+msgstr ""
+
+#: includes/metabox-options/artists.php:141
+#: includes/metabox-options/artists.php:372
+#: includes/metabox-options/blog.php:162
+#: includes/metabox-options/events.php:245
+#: includes/metabox-options/events.php:477
+#: includes/metabox-options/gallery.php:207
+#: includes/metabox-options/gallery.php:475
+#: includes/metabox-options/page.php:140 includes/metabox-options/post.php:142
+#: includes/metabox-options/releases.php:145
+#: includes/metabox-options/releases.php:439
+msgid "Hero Image Position"
+msgstr ""
+
+#: includes/metabox-options/artists.php:150
+#: includes/metabox-options/artists.php:381
+#: includes/metabox-options/blog.php:171
+#: includes/metabox-options/events.php:254
+#: includes/metabox-options/events.php:486
+#: includes/metabox-options/gallery.php:216
+#: includes/metabox-options/gallery.php:484
+#: includes/metabox-options/page.php:149 includes/metabox-options/post.php:151
+#: includes/metabox-options/releases.php:154
+#: includes/metabox-options/releases.php:448
+msgid "Set background vertical position."
+msgstr ""
+
+#: includes/metabox-options/artists.php:160
+#: includes/metabox-options/artists.php:390
+#: includes/metabox-options/blog.php:180
+#: includes/metabox-options/events.php:264
+#: includes/metabox-options/events.php:495
+#: includes/metabox-options/gallery.php:226
+#: includes/metabox-options/gallery.php:493
+#: includes/metabox-options/page.php:159 includes/metabox-options/post.php:160
+#: includes/metabox-options/releases.php:164
+#: includes/metabox-options/releases.php:457
+msgid "Hero Subtitle"
+msgstr ""
+
+#: includes/metabox-options/artists.php:165
+#: includes/metabox-options/artists.php:395
+#: includes/metabox-options/blog.php:185
+#: includes/metabox-options/events.php:269
+#: includes/metabox-options/events.php:500
+#: includes/metabox-options/gallery.php:231
+#: includes/metabox-options/gallery.php:498
+#: includes/metabox-options/page.php:164 includes/metabox-options/post.php:165
+#: includes/metabox-options/releases.php:169
+#: includes/metabox-options/releases.php:462
+msgid "Show extra title under main title."
+msgstr ""
+
+#: includes/metabox-options/artists.php:177
+#: includes/metabox-options/artists.php:407
+#: includes/metabox-options/blog.php:197
+#: includes/metabox-options/events.php:281
+#: includes/metabox-options/events.php:512
+#: includes/metabox-options/gallery.php:243
+#: includes/metabox-options/gallery.php:510
+#: includes/metabox-options/page.php:176 includes/metabox-options/post.php:177
+#: includes/metabox-options/releases.php:181
+#: includes/metabox-options/releases.php:474
+msgid "Content Background"
+msgstr ""
+
+#: includes/metabox-options/artists.php:182
+#: includes/metabox-options/artists.php:412
+#: includes/metabox-options/blog.php:202
+#: includes/metabox-options/events.php:286
+#: includes/metabox-options/events.php:517
+#: includes/metabox-options/gallery.php:248
+#: includes/metabox-options/gallery.php:515
+#: includes/metabox-options/page.php:181 includes/metabox-options/post.php:182
+#: includes/metabox-options/releases.php:186
+#: includes/metabox-options/releases.php:479
+msgid "Add background image."
+msgstr ""
+
+#: includes/metabox-options/artists.php:187
+#: includes/metabox-options/artists.php:417
+#: includes/metabox-options/blog.php:207
+#: includes/metabox-options/events.php:291
+#: includes/metabox-options/events.php:522
+#: includes/metabox-options/gallery.php:253
+#: includes/metabox-options/gallery.php:520
+#: includes/metabox-options/page.php:186 includes/metabox-options/post.php:187
+#: includes/metabox-options/releases.php:191
+#: includes/metabox-options/releases.php:484
+msgid "Show Overlay Header"
+msgstr ""
+
+#: includes/metabox-options/artists.php:196
+#: includes/metabox-options/artists.php:426
+#: includes/metabox-options/blog.php:216
+#: includes/metabox-options/events.php:300
+#: includes/metabox-options/events.php:531
+#: includes/metabox-options/gallery.php:262
+#: includes/metabox-options/gallery.php:529
+#: includes/metabox-options/page.php:195 includes/metabox-options/post.php:196
+#: includes/metabox-options/releases.php:200
+#: includes/metabox-options/releases.php:493
+msgid ""
+"Show overlay header instead of the classic header. When scrolling, the "
+"overlay header changes to classic."
+msgstr ""
+
+#: includes/metabox-options/artists.php:201
+#: includes/metabox-options/artists.php:431
+#: includes/metabox-options/blog.php:221
+#: includes/metabox-options/events.php:305
+#: includes/metabox-options/events.php:536
+#: includes/metabox-options/gallery.php:267
+#: includes/metabox-options/gallery.php:534
+#: includes/metabox-options/releases.php:205
+#: includes/metabox-options/releases.php:498
+msgid "Full width?"
+msgstr ""
+
+#: includes/metabox-options/artists.php:210
+#: includes/metabox-options/artists.php:440
+#: includes/metabox-options/blog.php:230
+#: includes/metabox-options/events.php:314
+#: includes/metabox-options/events.php:545
+#: includes/metabox-options/gallery.php:276
+#: includes/metabox-options/gallery.php:543
+#: includes/metabox-options/releases.php:214
+#: includes/metabox-options/releases.php:507
+msgid "Show full width images grid."
+msgstr ""
+
+#: includes/metabox-options/artists.php:241
+msgid "Artists Options"
+msgstr ""
+
+#: includes/metabox-options/artists.php:274
+#: includes/metabox-options/blog.php:64 includes/metabox-options/events.php:379
+#: includes/metabox-options/gallery.php:377
+#: includes/metabox-options/releases.php:341
+msgid "Page Builder"
+msgstr ""
+
+#: includes/metabox-options/artists.php:281
+#: includes/metabox-options/blog.php:71 includes/metabox-options/common.php:37
+#: includes/metabox-options/events.php:386
+#: includes/metabox-options/gallery.php:384
+#: includes/metabox-options/post.php:247
+#: includes/metabox-options/releases.php:348
+msgid "Disabled"
+msgstr ""
+
+#: includes/metabox-options/artists.php:286
+#: includes/metabox-options/blog.php:76 includes/metabox-options/common.php:101
+#: includes/metabox-options/events.php:391
+#: includes/metabox-options/gallery.php:389
+#: includes/metabox-options/releases.php:353
+msgid "Create page through The Page Builder"
+msgstr ""
+
+#: includes/metabox-options/artists.php:290
+#: includes/metabox-options/blog.php:80 includes/metabox-options/events.php:395
+#: includes/metabox-options/gallery.php:393
+#: includes/metabox-options/releases.php:357
+msgid ""
+"Enable or disable page builder above main posts loop. When is enabled \"Page "
+"Builder\", it will switch to a full width layout (with no title)."
+msgstr ""
+
+#: includes/metabox-options/artists.php:451
+#: includes/metabox-options/blog.php:242
+#: includes/metabox-options/events.php:558
+#: includes/metabox-options/gallery.php:554
+#: includes/metabox-options/releases.php:518
+msgid "Loop Settings"
+msgstr ""
+
+#: includes/metabox-options/artists.php:458
+#: includes/metabox-options/blog.php:249
+#: includes/metabox-options/events.php:566
+#: includes/metabox-options/gallery.php:561
+#: includes/metabox-options/releases.php:525
+msgid "Select Block"
+msgstr ""
+
+#: includes/metabox-options/artists.php:480
+#: includes/metabox-options/blog.php:282
+#: includes/metabox-options/events.php:593
+#: includes/metabox-options/gallery.php:583
+#: includes/metabox-options/releases.php:547
+msgid "Select a block to be used in the loop of this page."
+msgstr ""
+
+#: includes/metabox-options/artists.php:486
+#: includes/metabox-options/blog.php:287
+#: includes/metabox-options/events.php:599
+#: includes/metabox-options/gallery.php:589
+#: includes/metabox-options/releases.php:553
+msgid "Pagination Method"
+msgstr ""
+
+#: includes/metabox-options/artists.php:491
+#: includes/metabox-options/blog.php:292
+#: includes/metabox-options/events.php:604
+#: includes/metabox-options/gallery.php:594
+#: includes/metabox-options/releases.php:558
+msgid "Next/Prev Pagination"
+msgstr ""
+
+#: includes/metabox-options/artists.php:493
+#: includes/metabox-options/blog.php:294
+#: includes/metabox-options/events.php:606
+#: includes/metabox-options/gallery.php:596
+#: includes/metabox-options/releases.php:560
+msgid "Infinite Load"
+msgstr ""
+
+#: includes/metabox-options/artists.php:495
+#: includes/metabox-options/blog.php:296
+#: includes/metabox-options/events.php:608
+#: includes/metabox-options/gallery.php:598
+#: includes/metabox-options/releases.php:562
+msgid "Select pagination method."
+msgstr ""
+
+#: includes/metabox-options/artists.php:512
+#: includes/metabox-options/events.php:625
+#: includes/metabox-options/gallery.php:615
+#: includes/metabox-options/releases.php:579
+msgid "Show or hide Ajax filter."
+msgstr ""
+
+#: includes/metabox-options/artists.php:563
+#: includes/metabox-options/blog.php:308
+#: includes/metabox-options/events.php:676
+#: includes/metabox-options/gallery.php:666
+#: includes/metabox-options/releases.php:630
+#: includes/post-types/class-artists.php:123
+#: includes/post-types/class-events-manager.php:181
+#: includes/post-types/class-gallery.php:138
+#: includes/post-types/class-releases.php:123
+msgid "Filter"
+msgstr ""
+
+#: includes/metabox-options/artists.php:580
+#: includes/metabox-options/blog.php:324
+#: includes/metabox-options/gallery.php:682
+#: includes/metabox-options/releases.php:647
+msgid ""
+"If the field is empty the limit post number will be the number from "
+"Wordpress settings -> Reading"
+msgstr ""
+
+#: includes/metabox-options/artists.php:593
+#: includes/metabox-options/blog.php:336
+#: includes/metabox-options/gallery.php:695
+#: includes/metabox-options/releases.php:660
+msgid "Alphabetical A -> Z"
+msgstr ""
+
+#: includes/metabox-options/artists.php:645
+#: includes/metabox-options/events.php:746
+#: includes/metabox-options/gallery.php:744
+#: includes/metabox-options/releases.php:713
+#: includes/post-types/class-artists.php:93
+#: includes/post-types/class-artists.php:94
+#: includes/post-types/class-events-manager.php:146
+#: includes/post-types/class-events-manager.php:147
+#: includes/post-types/class-gallery.php:109
+#: includes/post-types/class-gallery.php:110
+#: includes/post-types/class-releases.php:93
+#: includes/post-types/class-releases.php:94
+msgid "Filter 1"
+msgstr ""
+
+#: includes/metabox-options/artists.php:646
+#: includes/metabox-options/artists.php:679
+#: includes/metabox-options/events.php:747
+#: includes/metabox-options/events.php:774
+#: includes/metabox-options/events.php:807
+#: includes/metabox-options/gallery.php:745
+#: includes/metabox-options/gallery.php:779
+#: includes/metabox-options/releases.php:714
+#: includes/metabox-options/releases.php:747
+msgid "Name"
+msgstr ""
+
+#: includes/metabox-options/artists.php:663
+#: includes/metabox-options/artists.php:696
+#: includes/metabox-options/events.php:791
+#: includes/metabox-options/events.php:824
+#: includes/metabox-options/gallery.php:763
+#: includes/metabox-options/gallery.php:796
+#: includes/metabox-options/releases.php:731
+#: includes/metabox-options/releases.php:764
+msgid ""
+"Filter multiple categories. Hold the CTRL key (PC) or COMMAND key (Mac) and "
+"click the items in a list to choose them. Click all the items you want to "
+"select. They don’t have to be next to each other.\n"
+"\t\t\t\tClick any item again to deselect it, e.g. if you have made a "
+"mistake. Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: includes/metabox-options/artists.php:667
+#: includes/metabox-options/artists.php:700
+#: includes/metabox-options/events.php:795
+#: includes/metabox-options/events.php:828
+#: includes/metabox-options/gallery.php:767
+#: includes/metabox-options/gallery.php:800
+#: includes/metabox-options/releases.php:735
+#: includes/metabox-options/releases.php:768
+msgid "Slugs"
+msgstr ""
+
+#: includes/metabox-options/artists.php:673
+#: includes/metabox-options/artists.php:706
+#: includes/metabox-options/events.php:801
+#: includes/metabox-options/events.php:834
+#: includes/metabox-options/gallery.php:773
+#: includes/metabox-options/gallery.php:806
+#: includes/metabox-options/releases.php:741
+#: includes/metabox-options/releases.php:774
+msgid ""
+"Filter multiple categories by category slug name separated by commas (ex: "
+"dubstep,hip-hop,glitch). Please note: Categories above have a higher "
+"priority than slugs names, so if you selected categories names, slugs will "
+"not be processed."
+msgstr ""
+
+#: includes/metabox-options/artists.php:678
+#: includes/metabox-options/events.php:773
+#: includes/metabox-options/gallery.php:778
+#: includes/metabox-options/releases.php:746
+#: includes/post-types/class-artists.php:106
+#: includes/post-types/class-artists.php:107
+#: includes/post-types/class-events-manager.php:158
+#: includes/post-types/class-events-manager.php:159
+#: includes/post-types/class-gallery.php:122
+#: includes/post-types/class-gallery.php:123
+#: includes/post-types/class-releases.php:106
+#: includes/post-types/class-releases.php:107
+msgid "Filter 2"
+msgstr ""
+
+#: includes/metabox-options/blog.php:32
+msgid "Articles Options"
+msgstr ""
+
+#: includes/metabox-options/blog.php:271
+#: includes/metabox-options/events.php:588
+#: includes/metabox-options/gallery.php:86
+msgid "Block 4"
+msgstr ""
+
+#: includes/metabox-options/blog.php:276
+msgid "Block 5"
+msgstr ""
+
+#: includes/metabox-options/blog.php:356
+msgid "Multiple Category ID"
+msgstr ""
+
+#: includes/metabox-options/blog.php:364
+msgid ""
+"Filter multiple categories. Hold the CTRL key (PC) or COMMAND key (Mac) and "
+"click the items in a list to choose them. Click all the items you want to "
+"select. They don’t have to be next to each other.\n"
+"Click any item again to deselect it, e.g. if you have made a mistake. "
+"Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: includes/metabox-options/common.php:43
+msgid "Full Screen YouTube Background"
+msgstr ""
+
+#: includes/metabox-options/common.php:49
+msgid "Artist Profile"
+msgstr ""
+
+#: includes/metabox-options/common.php:74
+#: includes/metabox-options/common.php:137
+msgid "Content Layout"
+msgstr ""
+
+#: includes/metabox-options/common.php:81
+#: includes/metabox-options/common.php:144
+msgid "Sidebar Left"
+msgstr ""
+
+#: includes/metabox-options/common.php:86
+#: includes/metabox-options/common.php:149
+msgid "Narrow Layout"
+msgstr ""
+
+#: includes/metabox-options/common.php:91
+#: includes/metabox-options/common.php:154
+msgid "Wide Layout"
+msgstr ""
+
+#: includes/metabox-options/common.php:96
+#: includes/metabox-options/common.php:159
+msgid "Sidebar Right"
+msgstr ""
+
+#: includes/metabox-options/common.php:111
+#: includes/metabox-options/common.php:169
+msgid "Custom Sidebar"
+msgstr ""
+
+#: includes/metabox-options/common.php:116
+#: includes/metabox-options/common.php:174
+msgid "Primary Sidebar"
+msgstr ""
+
+#: includes/metabox-options/common.php:121
+#: includes/metabox-options/common.php:179
+msgid "Select custom or primary sidebar."
+msgstr ""
+
+#: includes/metabox-options/common.php:193
+msgid "Footer Section"
+msgstr ""
+
+#: includes/metabox-options/common.php:200
+msgid "King Composer Section"
+msgstr ""
+
+#: includes/metabox-options/common.php:206
+msgid ""
+"You can add your own King Composer Section here. Sections are created in "
+"King Composer > Sections Manager."
+msgstr ""
+
+#: includes/metabox-options/common.php:219
+#: includes/metabox-options/common.php:225
+msgid "Facebook Sharing"
+msgstr ""
+
+#: includes/metabox-options/common.php:234
+msgid ""
+"Show or hide Facebook share options (head tags). Tip: This option can be set "
+"as the default in Theme Customizer > Single Post"
+msgstr ""
+
+#: includes/metabox-options/common.php:239
+#: includes/metabox-options/post.php:252
+msgid "Image"
+msgstr ""
+
+#: includes/metabox-options/common.php:243
+msgid ""
+"Use images that are at least 1200 x 630 pixels for the best display on high "
+"resolution devices. At the minimum, you should use images that are 600 x 315 "
+"pixels to display link page posts with larger images. If share data isn't "
+"visible on Facebook, please use this link:"
+msgstr ""
+
+#: includes/metabox-options/common.php:256
+msgid "A clear title without branding or mentioning the domain itself."
+msgstr ""
+
+#: includes/metabox-options/common.php:269
+msgid "Video URL."
+msgstr ""
+
+#: includes/metabox-options/common.php:278
+#: includes/metabox-options/post.php:214
+msgid "Short Description"
+msgstr ""
+
+#: includes/metabox-options/common.php:284
+msgid "A clear description, at least two sentences long."
+msgstr ""
+
+#: includes/metabox-options/events.php:31
+msgid "Event Options"
+msgstr ""
+
+#: includes/metabox-options/events.php:60
+msgid "Date/Time"
+msgstr ""
+
+#: includes/metabox-options/events.php:72
+msgid "Enter the event date; eg 2010-09-11"
+msgstr ""
+
+#: includes/metabox-options/events.php:75
+msgid "Time"
+msgstr ""
+
+#: includes/metabox-options/events.php:81
+msgid "Enter the event time; eg 21:00 or 09:00 pm"
+msgstr ""
+
+#: includes/metabox-options/events.php:84
+msgid "Repeat"
+msgstr ""
+
+#: includes/metabox-options/events.php:90
+msgid "Weekly"
+msgstr ""
+
+#: includes/metabox-options/events.php:92
+msgid "Repeat event."
+msgstr ""
+
+#: includes/metabox-options/events.php:95
+msgid "Every"
+msgstr ""
+
+#: includes/metabox-options/events.php:100
+msgid "week(s)"
+msgstr ""
+
+#: includes/metabox-options/events.php:102
+msgid "Repeat event every week(s)."
+msgstr ""
+
+#: includes/metabox-options/events.php:109
+msgid "Day(s)"
+msgstr ""
+
+#: includes/metabox-options/events.php:114
+msgid "Monday"
+msgstr ""
+
+#: includes/metabox-options/events.php:115
+msgid "Tuesday"
+msgstr ""
+
+#: includes/metabox-options/events.php:116
+msgid "Wednesday"
+msgstr ""
+
+#: includes/metabox-options/events.php:117
+msgid "Thursday"
+msgstr ""
+
+#: includes/metabox-options/events.php:118
+msgid "Friday"
+msgstr ""
+
+#: includes/metabox-options/events.php:119
+msgid "Saturday"
+msgstr ""
+
+#: includes/metabox-options/events.php:120
+msgid "Sunday"
+msgstr ""
+
+#: includes/metabox-options/events.php:122
+msgid ""
+"Please use the CTRL key (PC) or COMMAND key (Mac) to select multiple items."
+msgstr ""
+
+#: includes/metabox-options/events.php:137
+#: includes/post-types/class-events-manager.php:191
+msgid "Details"
+msgstr ""
+
+#: includes/metabox-options/events.php:144
+msgid "Event Location"
+msgstr ""
+
+#: includes/metabox-options/events.php:150
+msgid "Enter the event location; eg.: Amsterdam, Holland"
+msgstr ""
+
+#: includes/metabox-options/events.php:346
+msgid "Events Options"
+msgstr ""
+
+#: includes/metabox-options/events.php:692
+msgid "Number of posts per page."
+msgstr ""
+
+#: includes/metabox-options/events.php:741
+msgid "Enter the filters order number separated by commas (ex: 1,2,3)."
+msgstr ""
+
+#: includes/metabox-options/events.php:753
+msgid "Filter name. If this field is empty, the filter will not be shown."
+msgstr ""
+
+#: includes/metabox-options/events.php:756
+#: includes/post-types/class-events-manager.php:119
+#: includes/post-types/class-events-manager.php:120
+#: includes/post-types/class-events-manager.php:368
+msgid "Event Type"
+msgstr ""
+
+#: includes/metabox-options/events.php:806
+msgid "Filter 3"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:32
+#: includes/metabox-options/releases.php:32
+msgid "Album Options"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:57
+msgid "Images"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:64
+msgid "Images Layout"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:92
+msgid "Select images layout for this page."
+msgstr ""
+
+#: includes/metabox-options/gallery.php:103
+msgid "Add Images"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:104
+msgid "Add images from media libary"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:108
+msgid ""
+"Currently you don't have any images, you can add them by clicking on the "
+"button below."
+msgstr ""
+
+#: includes/metabox-options/gallery.php:109
+msgid ""
+"Hold the CTRL key (PC) or COMMAND key (Mac) and click the items in a list to "
+"choose them. Click all the items you want to select. They don’t have to be "
+"next to each other.\n"
+"\t\t\t\tClick any item again to deselect it, e.g. if you have made a "
+"mistake. Remember to keep the CTRL or COMMAND key pressed."
+msgstr ""
+
+#: includes/metabox-options/gallery.php:287
+#: includes/metabox-options/releases.php:225
+msgid "Loop Options"
+msgstr ""
+
+#: includes/metabox-options/gallery.php:345
+msgid "Gallery Options"
+msgstr ""
+
+#: includes/metabox-options/page.php:31
+msgid "Page Options"
+msgstr ""
+
+#: includes/metabox-options/post.php:32
+msgid "Post Options"
+msgstr ""
+
+#: includes/metabox-options/post.php:207
+msgid "Loop Content"
+msgstr ""
+
+#: includes/metabox-options/post.php:221
+msgid ""
+"Optional summary or description of a post. This text is displayed on the "
+"page with posts list."
+msgstr ""
+
+#: includes/metabox-options/post.php:231
+msgid "Featured"
+msgstr ""
+
+#: includes/metabox-options/post.php:239
+msgid "Featured Content"
+msgstr ""
+
+#: includes/metabox-options/post.php:257
+msgid "YouTube Video"
+msgstr ""
+
+#: includes/metabox-options/post.php:262
+msgid "Vimeo Video"
+msgstr ""
+
+#: includes/metabox-options/post.php:267
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/metabox-options/post.php:272
+msgid "Spotify"
+msgstr ""
+
+#: includes/metabox-options/post.php:277
+msgid "Bandcamp"
+msgstr ""
+
+#: includes/metabox-options/post.php:282
+msgid "Music Tracks"
+msgstr ""
+
+#: includes/metabox-options/post.php:287
+msgid "Choose featured content."
+msgstr ""
+
+#: includes/metabox-options/post.php:292
+msgid "Media Link"
+msgstr ""
+
+#: includes/metabox-options/post.php:296
+msgid "Paste media link."
+msgstr ""
+
+#: includes/metabox-options/post.php:305
+msgid "Bandcamp Embed Code"
+msgstr ""
+
+#: includes/metabox-options/post.php:310
+msgid "Paste iframe embed code."
+msgstr ""
+
+#: includes/metabox-options/post.php:319
+msgid "Source Name"
+msgstr ""
+
+#: includes/metabox-options/post.php:324
+msgid "Source name, this will appear at the bottom of the featured content."
+msgstr ""
+
+#: includes/metabox-options/post.php:333
+msgid "Select Tracks"
+msgstr ""
+
+#: includes/metabox-options/post.php:342
+msgid ""
+"Select tracklist post and drag and drop tracks to set the order. If there "
+"are no tracks available, then you can add a audio tracks using Tacks Manager "
+"menu on the left. Tip: Modifying this list does not affect on the original "
+"tracklist in Tracks Manager"
+msgstr ""
+
+#: includes/metabox-options/post.php:360
+msgid "Select player style."
+msgstr ""
+
+#: includes/metabox-options/post.php:394
+msgid "Show or hide tracks cover images in tracklist"
+msgstr ""
+
+#: includes/metabox-options/post.php:403
+msgid "Big Cover Images"
+msgstr ""
+
+#: includes/metabox-options/post.php:412
+msgid "Show obig cover images in tracklist"
+msgstr ""
+
+#: includes/metabox-options/releases.php:264
+msgid "Thumbnail Badge"
+msgstr ""
+
+#: includes/metabox-options/releases.php:274
+msgid "Select badge."
+msgstr ""
+
+#: includes/metabox-options/releases.php:308
+msgid "Releases Options"
+msgstr ""
+
+#: includes/metabox-options/releases.php:808
+msgid "Tracks Options"
+msgstr ""
+
+#: includes/metabox-options/releases.php:837
+#: includes/post-types/class-releases.php:65
+#: includes/post-types/class-releases.php:66
+msgid "Releases"
+msgstr ""
+
+#: includes/metabox-options/releases.php:849
+msgid "Cover"
+msgstr ""
+
+#: includes/metabox-options/releases.php:864
+msgid "-"
+msgstr ""
+
+#: includes/metabox-options/releases.php:873
+msgid "Add Tracks"
+msgstr ""
+
+#: includes/metabox-options/releases.php:874
+msgid "Add releases tracks from media libary"
+msgstr ""
+
+#: includes/metabox-options/releases.php:879
+msgid "Add Custom Track"
+msgstr ""
+
+#: includes/metabox-options/releases.php:880
+msgid "Add tracks from custom link"
+msgstr ""
+
+#: includes/metabox-options/releases.php:884
+msgid ""
+"Currently you don't have any audio tracks, you can add them by clicking on "
+"the button below."
+msgstr ""
+
+#: includes/metabox-options/releases.php:885
+msgid "Add audio tracks."
+msgstr ""
+
+#: includes/post-types/class-artists.php:65
+#: includes/post-types/class-artists.php:66
+msgid "Artists"
+msgstr ""
+
+#: includes/post-types/class-artists.php:67
+#: includes/post-types/class-events-manager.php:93
+#: includes/post-types/class-gallery.php:83
+#: includes/post-types/class-releases.php:67
+#: includes/scamp-player/class-scamp-player.php:75
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types/class-artists.php:68
+msgid "Add New Artist"
+msgstr ""
+
+#: includes/post-types/class-artists.php:69
+msgid "Edit Artist"
+msgstr ""
+
+#: includes/post-types/class-artists.php:70
+msgid "New Artist"
+msgstr ""
+
+#: includes/post-types/class-artists.php:71
+msgid "View Artist"
+msgstr ""
+
+#: includes/post-types/class-artists.php:73
+msgid "No artists found"
+msgstr ""
+
+#: includes/post-types/class-artists.php:74
+msgid "No artists found in Trash"
+msgstr ""
+
+#: includes/post-types/class-artists.php:133
+#: includes/post-types/class-events-manager.php:192
+#: includes/post-types/class-gallery.php:147
+#: includes/post-types/class-releases.php:133
+#: includes/scamp-player/class-scamp-player.php:118
+msgid "Preview"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:91
+#: includes/post-types/class-events-manager.php:92
+msgid "Events"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:94
+msgid "Add New Events Item"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:95
+msgid "Edit Events Item"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:96
+msgid "New Events Item"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:97
+msgid "View Events Item"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:98
+msgid "Search Items"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:99
+msgid "No events found"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:100
+msgid "No events found in Trash"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:307
+msgid "Future Event"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:309
+msgid "Past Event"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:316
+msgid "Event repeat"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:323
+msgid "Days left"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:522
+msgid "Start Today"
+msgstr ""
+
+#: includes/post-types/class-events-manager.php:525
+msgid "Continued"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:81
+#: includes/post-types/class-gallery.php:82
+msgid "Gallery"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:84
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:85
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:86
+msgid "New Gallery"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:87
+msgid "View Gallery"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:89
+msgid "No gallery found"
+msgstr ""
+
+#: includes/post-types/class-gallery.php:90
+msgid "No gallery found in Trash"
+msgstr ""
+
+#: includes/post-types/class-releases.php:68
+msgid "Add New Album"
+msgstr ""
+
+#: includes/post-types/class-releases.php:69
+msgid "Edit Album"
+msgstr ""
+
+#: includes/post-types/class-releases.php:70
+msgid "New Album"
+msgstr ""
+
+#: includes/post-types/class-releases.php:71
+msgid "View Album"
+msgstr ""
+
+#: includes/post-types/class-releases.php:73
+msgid "No release found"
+msgstr ""
+
+#: includes/post-types/class-releases.php:74
+msgid "No release found in Trash"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:73
+msgid "Tracks Manager"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:74
+msgid "Track"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:76
+msgid "Add New Tracks"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:77
+msgid "Edit Tracks"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:78
+msgid "New Tracks"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:79
+msgid "View Tracks"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:81
+msgid "No tracks found"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:82
+msgid "No tracks found in Trash"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:119
+msgid "Tracklist ID"
+msgstr ""
+
+#: includes/scamp-player/class-scamp-player.php:323
+msgid "Custom Title"
+msgstr ""
+
+#: includes/super-menu-walker.php:131
+msgid "Select menu type"
+msgstr ""
+
+#: includes/super-menu-walker.php:136
+msgid "Big Navigation"
+msgstr ""
+
+#: includes/super-menu-walker.php:141
+msgid ""
+"Select menu type, please add submenus only to \"Super Menu\". The super menu "
+"have to be the top most menu item."
+msgstr ""
+
+#: includes/super-menu-walker.php:145
+msgid "Select posts category"
+msgstr ""
+
+#: includes/super-menu-walker.php:152
+msgid "Select posts category to display images slider."
+msgstr ""
+
+#: includes/super-menu-walker.php:464
+msgid ""
+"Category does not contain posts, go to the menu and select another category, "
+"or add a few posts to the current category."
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:25
+msgid "Display advertisement in sidebar."
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:29
+msgid "[RT] Advertisement Spot"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:109
+msgid "AD"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:123
+#: includes/widgets/class-widget-flickr.php:127
+#: includes/widgets/class-widget-instafeed.php:160
+#: includes/widgets/class-widget-recent-posts.php:130
+#: includes/widgets/class-widget-twitter.php:140
+msgid "Advanced"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:132
+#: includes/widgets/class-widget-flickr.php:136
+#: includes/widgets/class-widget-instafeed.php:169
+#: includes/widgets/class-widget-recent-posts.php:139
+#: includes/widgets/class-widget-twitter.php:149
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:167
+msgid "Choose the adspot from list"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:177
+#: includes/widgets/class-widget-flickr.php:209
+#: includes/widgets/class-widget-instafeed.php:289
+#: includes/widgets/class-widget-recent-posts.php:183
+#: includes/widgets/class-widget-twitter.php:211
+msgid "Classes"
+msgstr ""
+
+#: includes/widgets/class-widget-ad.php:181
+#: includes/widgets/class-widget-flickr.php:213
+#: includes/widgets/class-widget-instafeed.php:293
+#: includes/widgets/class-widget-recent-posts.php:187
+#: includes/widgets/class-widget-twitter.php:215
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:25
+msgid "Display latest images from Flickr"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:29
+msgid "[RT] Flickr"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:67
+msgid "The Flickr ID or user set is invalid or does not exist."
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:110
+msgid "Flickr"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:145
+msgid "Flickr source"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:153
+msgid "Select Flickr display source"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:158
+msgid "Display order"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:166
+msgid "Image order"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:171
+msgid "Flickr ID"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:175
+msgid "Displays photos from a user or group "
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:175
+msgid "Find your Flickr user or group id"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:181
+msgid "Set"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:185
+msgid "Displays photos from a photo set. The set ID is at the end of the URL."
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:190
+#: includes/widgets/class-widget-recent-posts.php:148
+msgid "Limit"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:195
+#: includes/widgets/class-widget-instafeed.php:228
+msgid "images"
+msgstr ""
+
+#: includes/widgets/class-widget-flickr.php:197
+#: includes/widgets/class-widget-recent-posts.php:155
+#: includes/widgets/class-widget-twitter.php:192
+msgid "Number of thumbnails to show. Limit of 10 thumbnails."
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:29
+msgid "[RT] Instagram"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:187
+msgid "Access Token"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:205
+msgid "Display header"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:209
+msgid "Display or hide the Instagram header section"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:223
+msgid "Images per row"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:230
+msgid "Set the number of images displayed on each row (default is 3)"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:235
+msgid "Number of rows"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:240
+msgid "rows"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:242
+msgid "Set on how many rows to display the images (default is 2)"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:247
+msgid "Image gap"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:265
+msgid "Request timeout"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:270
+#: includes/widgets/class-widget-instafeed.php:282
+msgid "minutes"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:272
+msgid "Timeout for the instagram API request."
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:277
+msgid "Cache time"
+msgstr ""
+
+#: includes/widgets/class-widget-instafeed.php:284
+msgid "Time that data is stored in the database before re-downloading"
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:25
+msgid "Display recent posts containing featured image."
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:29
+msgid "[RT] Recent Posts"
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:153
+msgid "posts"
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:160
+msgid "Display thumbnails"
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:169
+msgid "Excerpt"
+msgstr ""
+
+#: includes/widgets/class-widget-recent-posts.php:173
+msgid "Display short text (excerpt)."
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:25
+msgid "Display latest images from Twitter"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:29
+msgid "[RT] Twitter"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:122
+msgid "Twitter"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:176
+msgid "API Secret"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:185
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:190
+msgid "tweets"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:202
+msgid "Replies"
+msgstr ""
+
+#: includes/widgets/class-widget-twitter.php:206
+msgid "Display replies."
+msgstr ""

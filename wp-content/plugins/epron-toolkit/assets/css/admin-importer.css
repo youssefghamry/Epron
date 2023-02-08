@@ -1,0 +1,212 @@
+/**
+ * Rascals Importer Admin Styles
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+
+/* Basic Styles */
+#rascals-importer {
+}
+#rascals-importer-message, .rascals-importer-error {
+	background:#ffecce;
+	color:#e3302c;
+	border-color:#e9c59b;
+	display:block;
+	font-size:12px;
+	font-weight:700;
+	border-left:4px solid;
+	clear:both;
+	margin:10px 0;
+	padding:16px 30px 16px 24px;
+}
+ .rascals-importer-info {
+	background-color: #F5FAFD;
+	margin: 30px 0;
+	padding: 15px 20px;
+	color: #0C518F;
+	border: 2px solid #CAE0F3;
+	clear: both;
+	line-height: 18px;
+}
+ .rascals-importer-warning {
+	background:#fefde2;
+  	color:#666;
+  	border: 2px solid #e5e181;
+	margin: 30px 0;
+	padding: 15px 20px;
+	clear: both;
+	width: 90%;
+	line-height: 18px;
+}
+
+ .rascals-importer-info h3, .rascals-importer-warning h3 {
+ 	color:#0C518F;
+ 	font-weight:400;
+ 	margin-top: 0;
+ }
+.rascals-importer-info ul, .rascals-importer-warning ul {
+	padding-left: 20px;
+	list-style-position: inside;
+	list-style-type: square;
+}
+#rascals-importer-message.hidden {
+	display:none;
+}
+
+#rascals-importer-success {
+	display: none;
+}
+
+#rascals-importer-success h6 {
+	font-size:18px;
+	font-weight:500;
+	margin-bottom:20px
+}
+.rascals-importer-notice {
+	font-size:16px;
+	margin-bottom:30px
+}
+.rascals-importer-heading {
+	margin: 20px 0 40px;
+	padding: 0;
+	color: #32373c;
+	line-height: 1.2em;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+.rascals-importer-content {
+	overflow:hidden;
+	position:relative;
+}
+#rascals-importer-image {
+	text-align: left;
+}
+#rascals-importer-image img {
+	max-width:100%;
+	
+	display: inline-block;
+}
+
+/* Demos */
+#rascals-importer .demos {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#rascals-importer .demo-column {
+	width: 50%;
+	float:left;
+}
+@media only screen and (max-width:767px) {
+	#rascals-importer .demo-column {
+		width: 100%;
+	}
+}
+@media only screen and (max-width:480px) {
+	#rascals-importer .demo-column {
+		width:100%;
+	}
+}
+
+#rascals-importer .demo {
+	padding: 20px;
+	margin:20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    -moz-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    transition: box-shadow 0.3s ease;
+}
+#rascals-importer .demo:hover {
+	 -webkit-box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.05);
+}
+#rascals-importer .demo-thumb {
+	width:100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    transition: all .25s ease;
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    -moz-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    box-shadow: 0 5px 5px rgba(0,0,0,.02);
+}
+#rascals-importer .demo.imported .rascals-import-start {
+	background-color: #e24848;
+	text-shadow: 0 -1px 1px #e24848, 1px 0 1px #e24848, 0 1px 1px #5c1717, -1px 0 1px #e14444;
+	border-color: #a22b2b;
+	box-shadow: 0 1px 0 #861a1a;
+}
+#rascals-importer .demo-thumb img {
+	width: 100%;
+	max-width: 100%;
+}
+#rascals-importer .demo h3 {
+	font-weight: 600;
+	font-size: 13px;
+	color: #000;
+	width: 100%;
+}
+#rascals-importer .demo .import-btn {
+	margin-top: 10px;
+	text-align: right;
+	width: 100%;
+}
+#rascals-importer .demo .import-btn .rascals-import-start {
+	display: inline-block;
+	font-size:12px;
+	font-weight:400;
+	background: #111;
+	border:0;
+	box-shadow:none;
+	text-shadow:none;
+	letter-spacing: 0.1em;
+	transition: background-color 0.3s ease;
+}
+#rascals-importer .demo .import-btn .rascals-import-start:hover {
+	background:#414141;
+}
+#rascals-importer .demo-column.coming-soon .demo {
+	padding-bottom: 94px;
+}
+.rascals-gdpr-confirm {
+	position:relative;
+	padding:20px;
+	background:#fff;
+	-webkit-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    -moz-box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    box-shadow: 0 5px 5px rgba(0,0,0,.02);
+}
+.rascals-gdpr-confirm #confirm {
+	position:absolute;
+	top:30px;
+}
+.rascals-gdpr-confirm label {
+	font-weight:600;
+	font-size:15px;
+	padding-left:40px;
+	display:block;
+}
+#rascals-importer .rascals-importer-wrap .confirm-layer {
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	z-index:3;
+	background:rgba(241, 241, 241, 0.8);
+}
+#rascals-importer .rascals-importer-wrap.accepted .confirm-layer {
+	display:none;
+}
+#rascals-importer .rascals-importer-wrap .demo .import-btn .rascals-import-start {
+}
+.rascals-importer-wrap {
+	position:relative;
+}

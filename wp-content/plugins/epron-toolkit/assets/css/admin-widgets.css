@@ -1,0 +1,86 @@
+/**
+ * Styles for widgets admin page
+ *
+ * @author Rascals Themes
+ * @category CSS
+ * @package Epron Toolkit
+ * @version 1.0.0
+ */
+
+/* ------------- Widget Global Styles */
+.rt-widget-desc {
+	font-size: 12px;
+	display: block;
+	color:#999;
+	width: 100%;
+}
+.rt-widget-input label {
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom:5px;
+	position: 
+}
+.rt-widget-input {
+	margin-bottom:15px;
+}
+.rt-widget-input-number label {
+	display: block
+}
+.rt-widget-input-number input {
+	max-width: 80px;
+}
+.rt-widget-units {
+	margin-left: 10px;
+	display: inline-block;
+	color:#999;
+}
+
+
+/* ------------- Widget Tabs */
+.widget-content .rt-tabs-wrap {
+	margin: 0 -15px;
+	overflow: hidden;
+	padding-top: 11px;
+}
+
+.rt-tabs-wrap .rt-tab {
+	display: none;
+	border-top: 1px solid #ddd;
+	padding: 0px 13px 15px 14px;
+}
+.rt-tabs-wrap .rt-tab-nav:first-child.checked  {
+	border-left-color:transparent;
+}
+.rt-tab-nav {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 8px 8px;
+	font-weight: 600;
+	text-align: center;
+	color: #bbb;
+	border: 1px solid transparent;
+}
+
+.rt-tab-nav:hover {
+	color: #888;
+	cursor: pointer;
+}
+
+.rt-tab-nav.checked {
+	color: #555;
+	border: 1px solid #ddd;
+	border-top: 2px solid #68b0c8;
+	border-bottom: 1px solid #fff;
+}
+
+/* Tab content */
+[data-id="rt-tab-1"].checked ~ [data-id="rt-content-1"],
+[data-id="rt-tab-2"].checked ~ [data-id="rt-content-2"],
+[data-id="rt-tab-3"].checked ~ [data-id="rt-content-3"],
+[data-id="rt-tab-4"].checked ~ [data-id="rt-content-4"],
+[data-id="rt-tab-1"].checked ~ [data-id="rt-content-5"],
+[data-id="rt-tab-2"].checked ~ [data-id="rt-content-6"],
+[data-id="rt-tab-3"].checked ~ [data-id="rt-content-7"],
+[data-id="rt-tab-4"].checked ~ [data-id="rt-content-8"] {
+	display: block;
+}
