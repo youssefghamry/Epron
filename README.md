@@ -19,10 +19,6 @@ Epron 2.0 is a modern WordPress theme created from scratch to meet the new web s
 
 
 
-(src/assets/docs-images/finnkino-user-management-laptop.png)
-
-(src/assets/docs-images/finnkino-movie-management-laptop.png)
-
 
 
 ## True Multipurpose Music Theme
