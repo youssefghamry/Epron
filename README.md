@@ -28,6 +28,13 @@ Epron 2.0 is a modern WordPress theme created from scratch to meet the new web s
 - [x] With the powerful and ultra flexible Muttley Framework combined with WordPress, your new music website is going to overpower the competition with features, performance and sound. Designed with the music industry in mind you will find a raft of features to create almost any kind of music website; DJ, Live Band, Performers, Agency, Artist, Recording Artist, Vocalist, Producers and Recording Artists – it all awaits your customization and requires no coding on your part.
 
 
+## Watch an explanatory video
+
+https://youtu.be/ZsOjIRRfwL4
+
+ <img src="https://raw.githubusercontent.com/youssefghamry/Epron/main/img/1.png">
+
+
 ## Complete List of Features
 
 
